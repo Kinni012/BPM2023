@@ -1,0 +1,2 @@
+Extract stable.zip to HeuristicLab\stable\
+This means in stable all the individual HeuristicLab folders need to be.

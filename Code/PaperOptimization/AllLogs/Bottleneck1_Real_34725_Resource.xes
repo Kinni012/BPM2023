@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0" xes.features="nested - attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<extension name="Cost" prefix="cost" uri="http://www.xes-standard.org/cost.xesext"/>
+	<extension name="ID" prefix="id" uri="http://www.xes-standard.org/identity.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="UNKNOWN"/>
+		<string key="org:group" value="UNKNOWN"/>
+	</global>
+	<global scope="event">
+		<date key="time:timestamp" value="1970-01-01T00:00:00+01:00"/>
+		<string key="concept:name" value="UNKNOWN"/>
+		<string key="lifecycle:transition" value="complete"/>
+	</global>
+	<classifier name="MXML Legacy Classifier" keys="WorkstationsSpecific"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="Resource" keys="org:resource"/>
+	<classifier name="Order" keys="Order"/>
+	<classifier name="Cobot" keys="org:role"/>
+	<string key="description" value="Simulated process"/>
+	<string key="lifecycle:model" value="standard"/>
+	<string key="Fitness cost" value="21082.04"/>
+	<string key="Fitness time" value="13643"/>
+	<trace>
+		<string key="Order" value="TestOrder 0"/>
+		<string key="id:Id" value="8b55ee6c-e23b-4874-ba35-e350121c2784"/>
+		<event>
+			<string key="id:Id" value="7df1e511-d1ac-48f0-a903-060fdffd0580"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="240.8"/>
+			<date key="time:timestamp" value="2022-01-15T00:02:24.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:00:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="0"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="d6479856-5bad-42d4-a0ec-1c8e7963c8ad"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="52.64"/>
+			<date key="time:timestamp" value="2022-01-15T00:03:11.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:02:24.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="1"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="9bdbeb0f-8b1c-4d5e-810b-d6081580221c"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="650.16"/>
+			<date key="time:timestamp" value="2022-01-15T00:09:47.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:02:24.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="2"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="18fa7c52-7ef3-4ab2-8cf5-3fba1c051637"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1142.4"/>
+			<date key="time:timestamp" value="2022-01-15T00:22:23.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:09:47.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="3"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 1"/>
+		<string key="id:Id" value="f76f9d1e-8f5a-4032-8a51-0738dec24a45"/>
+		<event>
+			<string key="id:Id" value="bc684d75-548b-4e8a-82fc-eb132deb134e"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="164.64"/>
+			<date key="time:timestamp" value="2022-01-15T00:04:49.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:03:11.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="4"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e93c83c8-dd59-443d-8d90-ec40aa7ebf17"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="484.96"/>
+			<date key="time:timestamp" value="2022-01-15T00:09:12.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:04:49.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="5"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="210ddc28-bc37-47f4-8ca3-34a471cd3f27"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="106.68"/>
+			<date key="time:timestamp" value="2022-01-15T00:24:30.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:22:23.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="6"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="474ee3fe-bed9-45fd-a871-2fc783105d6e"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="492.24"/>
+			<date key="time:timestamp" value="2022-01-15T00:30:24.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:24:30.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="7"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 10"/>
+		<string key="id:Id" value="c20c3d2d-ce43-4def-8972-8e1a0a4a2caf"/>
+		<event>
+			<string key="id:Id" value="e82ecd08-506b-4080-b741-312c5dc04220"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="321.44"/>
+			<date key="time:timestamp" value="2022-01-15T01:25:21.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:22:29.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="40"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="eb2786a5-69f1-438c-aab5-0be6fed9aa4d"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="95.2"/>
+			<date key="time:timestamp" value="2022-01-15T01:26:46.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:25:21.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="41"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="cdc1e962-0d84-43f7-b31e-ddfadc7e282b"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="381.36"/>
+			<date key="time:timestamp" value="2022-01-15T01:48:59.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:44:25.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="42"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="8be8b7e5-e927-425b-b8f6-4b86cd65687a"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="380.52"/>
+			<date key="time:timestamp" value="2022-01-15T01:53:36.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:48:59.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="43"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 11"/>
+		<string key="id:Id" value="3c725a25-3a65-43e1-8127-45ee2d160a41"/>
+		<event>
+			<string key="id:Id" value="09330dd4-46e3-43aa-a9e8-fb39e6c0f3e4"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="64.96"/>
+			<date key="time:timestamp" value="2022-01-15T01:27:44.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:26:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="44"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="50996cd1-43a4-484b-83c1-1a3c6a668118"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="66.08"/>
+			<date key="time:timestamp" value="2022-01-15T01:28:43.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:27:44.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="45"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="414a86d1-6bd5-4d4b-94e1-11fe92bff4b3"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="792.96"/>
+			<date key="time:timestamp" value="2022-01-15T02:02:35.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:53:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="46"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="47652ab4-0438-4b08-b85d-1335c420e9ed"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="899.64"/>
+			<date key="time:timestamp" value="2022-01-15T02:12:37.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:02:35.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="47"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 12"/>
+		<string key="id:Id" value="0ed11e4a-6020-412c-8a35-02a30991e9a4"/>
+		<event>
+			<string key="id:Id" value="58d994f7-d13a-4618-a341-510324dfaee2"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="336"/>
+			<date key="time:timestamp" value="2022-01-15T01:31:45.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:28:43.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="48"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="973bbf48-b699-4ea9-82f2-cfa34fc9b9b1"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="103.04"/>
+			<date key="time:timestamp" value="2022-01-15T01:33:17.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:31:45.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="49"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e38c023a-bec5-4c5d-8596-cab15b7f7a70"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="855.12"/>
+			<date key="time:timestamp" value="2022-01-15T02:22:20.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:12:37.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="50"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="1f1e9ac0-1cd1-4e07-bb3c-77db29a4daf9"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="840"/>
+			<date key="time:timestamp" value="2022-01-15T02:31:56.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:22:20.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="51"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 13"/>
+		<string key="id:Id" value="99fa247e-ea94-4f5d-8287-2bb9bf41fd9b"/>
+		<event>
+			<string key="id:Id" value="6aee0693-5782-4249-8f02-38e6a32e4742"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="467.04"/>
+			<date key="time:timestamp" value="2022-01-15T01:37:28.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:33:17.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="52"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="49140228-d86c-4f7d-a96f-2465fbcf0715"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="770.56"/>
+			<date key="time:timestamp" value="2022-01-15T01:43:54.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:37:28.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="53"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="6df7a58b-2a1c-485c-a2c1-77b1bd2d3da6"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="663.6"/>
+			<date key="time:timestamp" value="2022-01-15T02:39:53.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:31:56.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="54"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="d8c2e333-b287-4025-965e-a395dba99132"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="848.4"/>
+			<date key="time:timestamp" value="2022-01-15T02:49:36.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:39:53.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="55"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 14"/>
+		<string key="id:Id" value="c8bdb669-0efd-4ce3-ba35-b7930f75db3c"/>
+		<event>
+			<string key="id:Id" value="5511f7fc-9b34-47dd-8ed4-c1c573640cab"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="203.84"/>
+			<date key="time:timestamp" value="2022-01-15T01:45:42.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:43:54.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="56"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="bbdc7db7-c24d-443f-81ea-162b6cf435c6"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="480.48"/>
+			<date key="time:timestamp" value="2022-01-15T01:49:51.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:45:42.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="57"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="7dde6f0a-6b56-4911-9f9d-2c88741945a2"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="109.2"/>
+			<date key="time:timestamp" value="2022-01-15T02:51:46.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:49:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="58"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f3ed483d-f130-4287-b729-6ae11450e936"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="435.12"/>
+			<date key="time:timestamp" value="2022-01-15T02:56:33.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:51:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="59"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 15"/>
+		<string key="id:Id" value="784893a2-c3d1-44e2-abba-9cdf19212881"/>
+		<event>
+			<string key="id:Id" value="57c6b8e9-ec65-4c5c-a390-5fd007253642"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="412.16"/>
+			<date key="time:timestamp" value="2022-01-15T01:53:25.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:49:51.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="60"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="48d20c64-a824-4aff-b778-db5f69653831"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="104.16"/>
+			<date key="time:timestamp" value="2022-01-15T01:54:58.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:53:25.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="61"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="425f68f9-9acb-4b76-9e13-5ff99988aaa2"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="572.04"/>
+			<date key="time:timestamp" value="2022-01-15T03:03:04.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:56:33.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="62"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="3f8c8a8e-6ef0-4647-96a7-5d51d5b077e6"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="136.92"/>
+			<date key="time:timestamp" value="2022-01-15T03:05:47.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T03:03:04.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="63"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 16"/>
+		<string key="id:Id" value="7de63568-be16-432d-9a66-fe8cd48d04bd"/>
+		<event>
+			<string key="id:Id" value="c38a3fc4-6d6f-433b-beff-be8a645653a1"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="554.4"/>
+			<date key="time:timestamp" value="2022-01-15T01:59:41.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:54:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="64"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="da727be7-df67-4a88-b08a-8e92db10910f"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="844.48"/>
+			<date key="time:timestamp" value="2022-01-15T02:06:42.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:59:41.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="65"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="1a385137-bb90-41e1-ae41-057e21da7eb8"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="404.04"/>
+			<date key="time:timestamp" value="2022-01-15T03:11:06.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T03:05:47.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="66"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f233bf94-4b45-4a2d-a51e-6613d3563df3"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="483.84"/>
+			<date key="time:timestamp" value="2022-01-15T03:16:50.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T03:11:06.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="67"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 17"/>
+		<string key="id:Id" value="a8df1bac-61fc-4d1c-8707-db366e147cf9"/>
+		<event>
+			<string key="id:Id" value="15b0530d-5586-408a-ae18-4504e2ccd590"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="122.08"/>
+			<date key="time:timestamp" value="2022-01-15T02:07:56.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:06:42.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="68"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="35f77ab6-9c52-4656-a2be-97c0139deab2"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="361.76"/>
+			<date key="time:timestamp" value="2022-01-15T02:11:02.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:07:56.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="69"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="9e865179-a487-4154-9e9a-980f164a724f"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="304.08"/>
+			<date key="time:timestamp" value="2022-01-15T03:20:34.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T03:16:50.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="70"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f8f62531-78fd-420c-b083-f6189396c827"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="99.96"/>
+			<date key="time:timestamp" value="2022-01-15T03:22:33.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T03:20:34.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="71"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 18"/>
+		<string key="id:Id" value="3803242c-cd8b-404a-a21f-58131570c882"/>
+		<event>
+			<string key="id:Id" value="74be468f-a80e-4e94-8015-027b81196540"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="115.36"/>
+			<date key="time:timestamp" value="2022-01-15T02:12:45.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:11:02.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="72"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="c6c62625-1044-4cc6-b844-15a33998986f"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="379.68"/>
+			<date key="time:timestamp" value="2022-01-15T02:16:03.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:12:45.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="73"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="8913e556-5418-4cd2-9239-3f910b7138b2"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="574.56"/>
+			<date key="time:timestamp" value="2022-01-15T03:29:27.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T03:22:33.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="74"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="167a0453-d1be-4ceb-bd27-6f9d01e75270"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="754.32"/>
+			<date key="time:timestamp" value="2022-01-15T03:37:52.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T03:29:27.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="75"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 19"/>
+		<string key="id:Id" value="17f3087a-ef5d-47f6-8ead-bf8a29004db7"/>
+		<event>
+			<string key="id:Id" value="485ea33b-7d25-4505-b6f5-621445d0f87f"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="748.16"/>
+			<date key="time:timestamp" value="2022-01-15T02:22:15.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:16:03.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="76"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="1435cdc6-bc99-417d-8a69-f2e22cdf2470"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="303.52"/>
+			<date key="time:timestamp" value="2022-01-15T02:24:59.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:22:15.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="77"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="b05b38d8-f0b2-4c6d-85d3-224ddd799185"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="658.56"/>
+			<date key="time:timestamp" value="2022-01-15T03:45:43.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T03:37:52.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="78"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="c30ff539-8f0a-4b70-8e1c-3b751a6eb2b8"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="84"/>
+			<date key="time:timestamp" value="2022-01-15T03:47:23.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T03:45:43.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="79"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 2"/>
+		<string key="id:Id" value="58857a22-44dd-4ee9-b3e7-5690e470b169"/>
+		<event>
+			<string key="id:Id" value="09cadfec-aaf8-4d18-b53e-4fa8c65e0011"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="592.48"/>
+			<date key="time:timestamp" value="2022-01-15T00:14:28.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:09:12.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="8"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="cf164fcb-65a9-4c3c-bc5c-a2a5abb26958"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="329.28"/>
+			<date key="time:timestamp" value="2022-01-15T00:17:43.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:14:28.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="9"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="6035f20e-a230-489c-8183-12e1534d1be4"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="447.72"/>
+			<date key="time:timestamp" value="2022-01-15T00:35:31.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:30:24.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="10"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="aa6e63dc-da0b-4b63-ab62-c817bf829014"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="93.24"/>
+			<date key="time:timestamp" value="2022-01-15T00:37:22.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:35:31.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="11"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 3"/>
+		<string key="id:Id" value="6360b566-92a9-468b-9ae5-9dc0a68675ac"/>
+		<event>
+			<string key="id:Id" value="1ad1f81c-6eb1-48c9-a629-fbb0ebb02b68"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="366.24"/>
+			<date key="time:timestamp" value="2022-01-15T00:21:03.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:17:43.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="12"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="1e5efed4-2906-4adb-9056-d74c7c91b460"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="394.24"/>
+			<date key="time:timestamp" value="2022-01-15T00:24:36.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:21:03.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="13"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="79bda0dd-e3e2-4948-8066-938a23db47af"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="592.2"/>
+			<date key="time:timestamp" value="2022-01-15T00:44:31.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:37:22.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="14"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="3775f0d0-edf4-4f32-bda0-7f6e06e3b824"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="657.72"/>
+			<date key="time:timestamp" value="2022-01-15T00:52:25.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:44:31.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="15"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 4"/>
+		<string key="id:Id" value="1af74533-21f9-447e-ac79-80d1f47d66e9"/>
+		<event>
+			<string key="id:Id" value="fc7ef6b1-9faa-45ac-843f-f97f0efc20cf"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="443.52"/>
+			<date key="time:timestamp" value="2022-01-15T00:28:31.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:24:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="16"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="6a2adf36-a9a3-4731-b967-84ecd95f3956"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="60.48"/>
+			<date key="time:timestamp" value="2022-01-15T00:29:25.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:28:31.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="17"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="9155a2f5-bf94-4754-92d2-ab34919b5550"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="349.44"/>
+			<date key="time:timestamp" value="2022-01-15T00:56:22.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:52:25.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="18"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="80ee9d8b-560f-4a0f-aa48-f06f0ebf622b"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="82.32"/>
+			<date key="time:timestamp" value="2022-01-15T00:58:00.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:56:22.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="19"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 5"/>
+		<string key="id:Id" value="8d5347fc-8549-49fe-9a0f-c5fdacb64005"/>
+		<event>
+			<string key="id:Id" value="a01ffb85-3d81-49dc-afd1-48354b49a6b5"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="631.68"/>
+			<date key="time:timestamp" value="2022-01-15T00:34:49.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:29:25.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="20"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="02131b51-adaa-4687-b1e8-57da186aec19"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="554.4"/>
+			<date key="time:timestamp" value="2022-01-15T00:39:48.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:34:49.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="21"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="d5b59b00-6972-4403-8b40-f272da6dc3da"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="94.08"/>
+			<date key="time:timestamp" value="2022-01-15T00:59:52.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:58:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="22"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="fdc8d29b-fe92-472a-92ed-26b971ff91a8"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="843.36"/>
+			<date key="time:timestamp" value="2022-01-15T01:09:29.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:59:52.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="23"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 6"/>
+		<string key="id:Id" value="a8089911-85e2-4d1b-9449-573c4f62dcb4"/>
+		<event>
+			<string key="id:Id" value="43dd5e09-72f3-4733-a670-5092cda22f07"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1010.24"/>
+			<date key="time:timestamp" value="2022-01-15T00:48:13.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:39:48.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="24"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="c4bdf5b6-c6d7-49d1-afc3-0bee12dd9bba"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="504"/>
+			<date key="time:timestamp" value="2022-01-15T00:52:30.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:48:13.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="25"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f1fb8309-8572-47ca-a5e2-8c6644c4d117"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="258.72"/>
+			<date key="time:timestamp" value="2022-01-15T01:12:57.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:09:29.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="26"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="1d9805a7-901e-487c-9722-e50f4855e449"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="72.24"/>
+			<date key="time:timestamp" value="2022-01-15T01:14:23.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:12:57.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="27"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 7"/>
+		<string key="id:Id" value="949ec726-dc83-43ac-bc3f-eed98abc2326"/>
+		<event>
+			<string key="id:Id" value="b5140d22-99c7-484d-846a-85b472cfa5d5"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="339.36"/>
+			<date key="time:timestamp" value="2022-01-15T00:55:52.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:52:30.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="28"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e0a072cd-cfb3-4450-96cd-563a343e1823"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1028.16"/>
+			<date key="time:timestamp" value="2022-01-15T01:04:27.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:55:52.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="29"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="0dda498c-6678-4390-addb-368de3f3ad8f"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="108.36"/>
+			<date key="time:timestamp" value="2022-01-15T01:16:32.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:14:23.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="30"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="96925897-0f8f-4c6c-95df-50e2c4e8c1af"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="343.56"/>
+			<date key="time:timestamp" value="2022-01-15T01:20:37.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:16:32.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="31"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 8"/>
+		<string key="id:Id" value="26c92298-55f7-4d5b-9781-4f6598a363dc"/>
+		<event>
+			<string key="id:Id" value="7c00ac20-30df-4fbe-ac3b-09fa4226f337"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="339.36"/>
+			<date key="time:timestamp" value="2022-01-15T01:07:24.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:04:27.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="32"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="98c21a49-6612-4e5e-b61a-8ba242fe9b2a"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="414.4"/>
+			<date key="time:timestamp" value="2022-01-15T01:11:08.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:07:24.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="33"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="d22194ca-96cc-4194-a42c-fef61dda61f2"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="311.64"/>
+			<date key="time:timestamp" value="2022-01-15T01:24:45.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:20:37.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="34"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="2e62be92-c7df-4ef4-9588-7242fc1b7d7c"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="829.92"/>
+			<date key="time:timestamp" value="2022-01-15T01:34:13.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:24:45.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="35"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 9"/>
+		<string key="id:Id" value="b5d2544c-8d0e-44ea-ad31-661f321cc1d3"/>
+		<event>
+			<string key="id:Id" value="78fc5b80-923e-4b59-a87b-26b010c0c662"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="739.2"/>
+			<date key="time:timestamp" value="2022-01-15T01:17:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:11:08.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="36"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="359c0094-6b5d-4a64-9c81-c3e2e65782c8"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="584.64"/>
+			<date key="time:timestamp" value="2022-01-15T01:22:29.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:17:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="37"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="cb2633fd-a4e6-4e0c-ba07-747c626da7c6"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="588.84"/>
+			<date key="time:timestamp" value="2022-01-15T01:41:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:34:13.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="38"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+		<event>
+			<string key="id:Id" value="31ea419f-bcf6-4c31-aa3b-907a36724b2b"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="34735.96"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="34735.96"/>
+			<string key="WorkstationIdleTime" value="-8555"/>
+			<string key="WorkstationProductionTime" value="22198"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="263.76"/>
+			<date key="time:timestamp" value="2022-01-15T01:44:25.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:41:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="39"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human 34735.96"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 34735.96"/>
+		</event>
+	</trace>
+</log>

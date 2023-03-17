@@ -1,0 +1,17 @@
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\FJSSP_Easy4SimLibrary.dll.config
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\FJSSP_Easy4SimLibrary.dll
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\FJSSP_Easy4SimLibrary.pdb
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\Easy4SimFramework.dll
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\Google.Protobuf.dll
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\HEAL.Attic.dll
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\System.Drawing.Common.dll
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\log4net.dll
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\Easy4SimFramework.pdb
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\Easy4SimFramework.dll.config
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\Google.Protobuf.xml
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\bin\Release\log4net.xml
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\obj\Release\FJSSP_Easy4SimLibrary.csproj.AssemblyReference.cache
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\obj\Release\FJSSP_Easy4SimLibrary.csproj.CoreCompileInputs.cache
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\obj\Release\FJSSP_Easy4SimLibrary.csproj.CopyComplete
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\obj\Release\FJSSP_Easy4SimLibrary.dll
+C:\develop\easy4sim\FJSSP_Easy4SimLibrary\obj\Release\FJSSP_Easy4SimLibrary.pdb

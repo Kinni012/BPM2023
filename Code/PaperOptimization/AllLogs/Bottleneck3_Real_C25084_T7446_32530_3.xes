@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0" xes.features="nested - attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<extension name="Cost" prefix="cost" uri="http://www.xes-standard.org/cost.xesext"/>
+	<extension name="ID" prefix="id" uri="http://www.xes-standard.org/identity.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="UNKNOWN"/>
+		<string key="org:group" value="UNKNOWN"/>
+	</global>
+	<global scope="event">
+		<date key="time:timestamp" value="1970-01-01T00:00:00+01:00"/>
+		<string key="concept:name" value="UNKNOWN"/>
+		<string key="lifecycle:transition" value="complete"/>
+	</global>
+	<classifier name="MXML Legacy Classifier" keys="WorkstationsSpecific"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="Resource" keys="org:resource"/>
+	<classifier name="Order" keys="Order"/>
+	<classifier name="Cobot" keys="org:role"/>
+	<string key="description" value="Simulated process"/>
+	<string key="lifecycle:model" value="standard"/>
+	<string key="Fitness cost" value="27608.99"/>
+	<string key="Fitness time" value="7258"/>
+	<trace>
+		<string key="Order" value="TestOrder 0"/>
+		<string key="id:Id" value="6def943b-21f7-421b-a4a6-0bde441713fb"/>
+		<event>
+			<string key="id:Id" value="344dddc7-4949-423a-9e4e-574f194c2264"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="413.25"/>
+			<date key="time:timestamp" value="2022-02-01T00:59:33.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:55:08.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="0"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="a3b05378-7e70-46fa-b843-843dac91f646"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4924.64"/>
+			<string key="WorkstationIdleTime" value="4511"/>
+			<string key="WorkstationProductionTime" value="2747"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="103.04"/>
+			<date key="time:timestamp" value="2022-02-01T01:01:05.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:59:33.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="1"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="B1 Human 4924.64"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="531ab336-f234-4a7a-b59b-2843b8cc0777"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="521.22"/>
+			<date key="time:timestamp" value="2022-02-01T01:50:20.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:45:13.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="2"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="7f6cfcdf-ee92-4f74-93ec-f73e6becd5d7"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="937.17"/>
+			<date key="time:timestamp" value="2022-02-01T02:00:58.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:52:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="3"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 1"/>
+		<string key="id:Id" value="65abfca2-34cc-4419-8c9c-b4848a8e0bb3"/>
+		<event>
+			<string key="id:Id" value="4a86c425-9303-4e95-b686-b298db1d6bd4"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="324.9"/>
+			<date key="time:timestamp" value="2022-02-01T00:07:21.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:03:34.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="4"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="3014a777-1447-49b1-b5db-8b51d18a88e1"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4924.64"/>
+			<string key="WorkstationIdleTime" value="4511"/>
+			<string key="WorkstationProductionTime" value="2747"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="622.72"/>
+			<date key="time:timestamp" value="2022-02-01T00:12:45.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:07:21.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="5"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="B1 Human 4924.64"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="65522f05-de4b-46cb-878f-4bd5f3e55f3e"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="100.98"/>
+			<date key="time:timestamp" value="2022-02-01T01:32:37.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:30:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="6"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="230d9da4-691e-45f0-ba51-9b99f62d4577"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="656.37"/>
+			<date key="time:timestamp" value="2022-02-01T01:40:27.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:34:42.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="7"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 10"/>
+		<string key="id:Id" value="4086a3c2-c458-4c36-bf1a-c6cc96b5f649"/>
+		<event>
+			<string key="id:Id" value="bdac52af-98d7-407c-bac4-054cc62ea07b"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2391.9"/>
+			<string key="WorkstationIdleTime" value="5968"/>
+			<string key="WorkstationProductionTime" value="1290"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="149.94"/>
+			<date key="time:timestamp" value="2022-02-01T00:02:06.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:00:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="40"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="A1 Human 2391.9"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e32fbd91-aa8e-4548-8548-7fbd03891799"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1136.28"/>
+			<date key="time:timestamp" value="2022-02-01T00:12:33.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:02:06.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="42"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="5d44996d-2fa1-4b9a-bb70-4232c4028792"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4979.5"/>
+			<string key="WorkstationIdleTime" value="4602"/>
+			<string key="WorkstationProductionTime" value="2656"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="870.55"/>
+			<date key="time:timestamp" value="2022-02-01T00:09:19.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:02:06.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="41"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="B2 Human 4979.5"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e39ee195-b6e1-4f87-b260-de538134c97b"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="800.28"/>
+			<date key="time:timestamp" value="2022-02-01T00:19:27.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:12:33.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="43"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 11"/>
+		<string key="id:Id" value="708611cb-12f3-469d-ada7-0645a638e557"/>
+		<event>
+			<string key="id:Id" value="7630c6e8-5135-4133-bafd-55bce1ca5203"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="77.9"/>
+			<date key="time:timestamp" value="2022-02-01T01:05:49.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:04:27.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="44"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="359d52b6-1758-4ff2-9c5e-3d4ce1502a85"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4924.64"/>
+			<string key="WorkstationIdleTime" value="4511"/>
+			<string key="WorkstationProductionTime" value="2747"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1067.36"/>
+			<date key="time:timestamp" value="2022-02-01T01:14:54.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:05:49.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="45"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="B1 Human 4924.64"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="ee4b3600-7a6d-4757-ac56-de4a97c9fc54"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1037.34"/>
+			<date key="time:timestamp" value="2022-02-01T01:22:01.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:12:13.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="46"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e0770a16-498b-4350-8e47-21bd7a92bcae"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="910.26"/>
+			<date key="time:timestamp" value="2022-02-01T01:48:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:40:27.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="47"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 12"/>
+		<string key="id:Id" value="9b27b03a-fa97-44ea-82bd-bb19e10d2cf4"/>
+		<event>
+			<string key="id:Id" value="207b57e9-dcdd-4ad4-b0bb-b9a388d11366"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="729.6"/>
+			<date key="time:timestamp" value="2022-02-01T00:37:19.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:30:07.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="48"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="41d09345-843d-43fc-a596-b5a94c30322a"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4979.5"/>
+			<string key="WorkstationIdleTime" value="4602"/>
+			<string key="WorkstationProductionTime" value="2656"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="607.2"/>
+			<date key="time:timestamp" value="2022-02-01T00:42:37.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:37:19.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="49"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="B2 Human 4979.5"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="29578f64-932d-4ace-8d58-f133c9e2134d"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="929.22"/>
+			<date key="time:timestamp" value="2022-02-01T00:46:38.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:37:50.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="50"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="ad66c761-491e-459d-8f04-d551f320b398"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="298.35"/>
+			<date key="time:timestamp" value="2022-02-01T00:54:32.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:52:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="51"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 13"/>
+		<string key="id:Id" value="79caa918-5116-43e6-8d18-8267844dff35"/>
+		<event>
+			<string key="id:Id" value="7fe4b4b4-0ade-4f47-bd63-69d4d181397f"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2391.9"/>
+			<string key="WorkstationIdleTime" value="5968"/>
+			<string key="WorkstationProductionTime" value="1290"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1015.07"/>
+			<date key="time:timestamp" value="2022-02-01T00:12:24.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:04:08.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="52"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="A1 Human 2391.9"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="8ebb256b-5538-488a-9d94-ce47085bdc0b"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="510"/>
+			<date key="time:timestamp" value="2022-02-01T00:17:10.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:12:33.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="54"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="32845b4b-693a-4f98-bce4-8606b39a612b"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4924.64"/>
+			<string key="WorkstationIdleTime" value="4511"/>
+			<string key="WorkstationProductionTime" value="2747"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="141.12"/>
+			<date key="time:timestamp" value="2022-02-01T00:18:51.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:16:45.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="53"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="B1 Human 4924.64"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="7f1261a5-078f-432f-9e2c-187a7153a081"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4782"/>
+			<string key="WorkstationIdleTime" value="4907"/>
+			<string key="WorkstationProductionTime" value="2351"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="739.2"/>
+			<date key="time:timestamp" value="2022-02-01T00:24:50.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:18:51.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="55"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="D2 Human 4782"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 14"/>
+		<string key="id:Id" value="8329bffa-0ae1-4a45-be9b-616c5a35e4da"/>
+		<event>
+			<string key="id:Id" value="d164cb74-78f6-4525-ac41-7bf51c1a9bbc"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="109.25"/>
+			<date key="time:timestamp" value="2022-02-01T00:09:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:07:21.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="56"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="249f604a-abfb-4418-8e73-478142dfaf46"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4979.5"/>
+			<string key="WorkstationIdleTime" value="4602"/>
+			<string key="WorkstationProductionTime" value="2656"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="696.9"/>
+			<date key="time:timestamp" value="2022-02-01T00:26:56.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:21:10.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="57"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="B2 Human 4979.5"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="29296330-cb0d-4b87-a69f-fbb8d77ec06d"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="162.18"/>
+			<date key="time:timestamp" value="2022-02-01T00:31:46.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:29:07.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="58"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="d5a665e0-5c61-4534-8849-855589c579a9"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1264.77"/>
+			<date key="time:timestamp" value="2022-02-01T00:42:04.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:31:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="59"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 15"/>
+		<string key="id:Id" value="ffa155f1-f82a-4560-9d3d-d7062cc0572b"/>
+		<event>
+			<string key="id:Id" value="1a34e752-bb13-458e-9a10-855d9e08caca"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="680.2"/>
+			<date key="time:timestamp" value="2022-02-01T00:51:58.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:45:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="60"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f058383c-ee0d-43fc-b4db-a4ce1617050c"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4979.5"/>
+			<string key="WorkstationIdleTime" value="4602"/>
+			<string key="WorkstationProductionTime" value="2656"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="453.1"/>
+			<date key="time:timestamp" value="2022-02-01T00:56:20.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:51:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="61"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="B2 Human 4979.5"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="4545afda-74bd-4c35-b450-76baaa1aa5cc"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="565.08"/>
+			<date key="time:timestamp" value="2022-02-01T00:59:18.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:53:48.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="62"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="3144ec25-5881-4321-8a8c-0b6bd0c5983a"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="201.24"/>
+			<date key="time:timestamp" value="2022-02-01T01:07:39.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:05:40.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="63"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 16"/>
+		<string key="id:Id" value="bcc2d240-6aff-4f34-afa3-05a0f293b867"/>
+		<event>
+			<string key="id:Id" value="8637223c-beec-46f6-98b8-f893a1de9dca"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="311.6"/>
+			<date key="time:timestamp" value="2022-02-01T00:55:08.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:51:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="64"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="ebf28506-e6ef-4c61-8a3d-3f9c730227ae"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4924.64"/>
+			<string key="WorkstationIdleTime" value="4511"/>
+			<string key="WorkstationProductionTime" value="2747"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="434.56"/>
+			<date key="time:timestamp" value="2022-02-01T00:59:08.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:55:08.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="65"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="B1 Human 4924.64"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="05adbafc-235e-42d5-9eef-fb2678f6204b"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="120.36"/>
+			<date key="time:timestamp" value="2022-02-01T01:01:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:59:18.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="66"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="68382d10-158d-4a02-982f-d99968fa0e7e"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4782"/>
+			<string key="WorkstationIdleTime" value="4907"/>
+			<string key="WorkstationProductionTime" value="2351"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="196.8"/>
+			<date key="time:timestamp" value="2022-02-01T01:04:00.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:01:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="67"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="D2 Human 4782"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 17"/>
+		<string key="id:Id" value="f23f74f2-dd6b-4b95-ac90-e18a3b0ce10f"/>
+		<event>
+			<string key="id:Id" value="95e316ab-38cd-4482-b965-a11a484db7eb"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="348.65"/>
+			<date key="time:timestamp" value="2022-02-01T00:03:34.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:00:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="68"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="95650280-6118-48e3-b6be-89f7c61c2e6f"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4979.5"/>
+			<string key="WorkstationIdleTime" value="4602"/>
+			<string key="WorkstationProductionTime" value="2656"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="632.5"/>
+			<date key="time:timestamp" value="2022-02-01T00:18:15.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:12:43.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="69"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="B2 Human 4979.5"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="730a4de4-8419-4531-82b7-90bf15cbfccc"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="776.22"/>
+			<date key="time:timestamp" value="2022-02-01T01:30:58.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:23:49.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="70"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="a43351c5-ed6e-44c3-aeec-6c30943ced4f"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4782"/>
+			<string key="WorkstationIdleTime" value="4907"/>
+			<string key="WorkstationProductionTime" value="2351"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1202.4"/>
+			<date key="time:timestamp" value="2022-02-01T01:40:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:30:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="71"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="D2 Human 4782"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 18"/>
+		<string key="id:Id" value="f031a4c4-ec1c-43b1-b80f-0c691d0393b7"/>
+		<event>
+			<string key="id:Id" value="05bdfddd-e385-43d5-be06-ff0604e9a7a5"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="253.65"/>
+			<date key="time:timestamp" value="2022-02-01T00:18:46.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:16:04.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="72"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f1211d81-2168-4393-b4d6-9b35e93c0b3c"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4924.64"/>
+			<string key="WorkstationIdleTime" value="4511"/>
+			<string key="WorkstationProductionTime" value="2747"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="817.6"/>
+			<date key="time:timestamp" value="2022-02-01T00:26:09.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:18:51.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="73"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="B1 Human 4924.64"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="bef619d6-5f7b-439d-a614-d72bcd033a3b"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="110.16"/>
+			<date key="time:timestamp" value="2022-02-01T01:23:49.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:22:01.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="74"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="b32b8b7e-5713-4aa6-8a42-649fcff912f3"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="197.73"/>
+			<date key="time:timestamp" value="2022-02-01T01:52:58.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:50:09.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="75"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 19"/>
+		<string key="id:Id" value="fb75d0c6-581d-4da0-88d2-a726497245dd"/>
+		<event>
+			<string key="id:Id" value="c96a89d0-b1b9-415d-a5a0-488033ff7b0b"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="217.55"/>
+			<date key="time:timestamp" value="2022-02-01T00:11:52.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:09:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="76"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="2b64cab2-f3a4-4634-94a9-7d5cd43fad8f"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4924.64"/>
+			<string key="WorkstationIdleTime" value="4511"/>
+			<string key="WorkstationProductionTime" value="2747"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="450.24"/>
+			<date key="time:timestamp" value="2022-02-01T00:16:45.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:12:45.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="77"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="B1 Human 4924.64"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="05aa68ad-9f4e-4127-967b-352be4e6c9f6"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="722.16"/>
+			<date key="time:timestamp" value="2022-02-01T00:53:48.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:46:38.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="78"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="b799d74d-0a76-4ec6-a1f0-4452eed7c4d0"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1346.67"/>
+			<date key="time:timestamp" value="2022-02-01T01:05:40.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:54:32.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="79"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 2"/>
+		<string key="id:Id" value="28f0374d-dc1e-4d91-ae3a-b37d873abc85"/>
+		<event>
+			<string key="id:Id" value="4e48b620-1b3c-43ab-b3b3-c4a5f2ec4500"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="303.05"/>
+			<date key="time:timestamp" value="2022-02-01T00:40:32.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:37:19.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="8"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="879633c9-38dc-4c6c-9338-fcf3f16d5918"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4924.64"/>
+			<string key="WorkstationIdleTime" value="4511"/>
+			<string key="WorkstationProductionTime" value="2747"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="685.44"/>
+			<date key="time:timestamp" value="2022-02-01T00:46:46.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:40:32.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="9"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="B1 Human 4924.64"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="3a3fc8ee-c80e-4b97-bc36-f12ad871c60d"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="790.5"/>
+			<date key="time:timestamp" value="2022-02-01T01:40:23.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:32:37.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="10"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="51b8d579-a0e2-47bf-8e4f-5b6398bcc24a"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4782"/>
+			<string key="WorkstationIdleTime" value="4907"/>
+			<string key="WorkstationProductionTime" value="2351"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="741.6"/>
+			<date key="time:timestamp" value="2022-02-01T01:46:31.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:40:23.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="11"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="D2 Human 4782"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 3"/>
+		<string key="id:Id" value="466d5b8e-80e2-42b9-88ac-328ed710d045"/>
+		<event>
+			<string key="id:Id" value="97643bd2-3ae8-4aaf-8e19-ddaa751c3be5"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2391.9"/>
+			<string key="WorkstationIdleTime" value="5968"/>
+			<string key="WorkstationProductionTime" value="1290"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="145.18"/>
+			<date key="time:timestamp" value="2022-02-01T00:04:08.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:02:06.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="12"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="A1 Human 2391.9"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f0240f5c-ce97-4416-8e96-67d37e8cd9c9"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4979.5"/>
+			<string key="WorkstationIdleTime" value="4602"/>
+			<string key="WorkstationProductionTime" value="2656"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="414"/>
+			<date key="time:timestamp" value="2022-02-01T00:12:43.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:09:19.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="13"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="B2 Human 4979.5"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f32ca2cf-7166-46e0-97f2-66c864daa03f"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="88.74"/>
+			<date key="time:timestamp" value="2022-02-01T00:37:50.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:36:23.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="14"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e7c58556-3cdb-4cfc-9f50-9a8a0762cb2e"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1209.78"/>
+			<date key="time:timestamp" value="2022-02-01T00:52:00.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:42:04.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="15"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 4"/>
+		<string key="id:Id" value="07d015eb-d6ae-480c-b66a-b8ce479fba1b"/>
+		<event>
+			<string key="id:Id" value="0f813834-6217-4509-8814-3a7e24e1d1cc"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="445.55"/>
+			<date key="time:timestamp" value="2022-02-01T00:45:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:40:32.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="16"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="ef60aa6b-6f81-4948-920e-45c80bfd63c7"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4979.5"/>
+			<string key="WorkstationIdleTime" value="4602"/>
+			<string key="WorkstationProductionTime" value="2656"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="127.65"/>
+			<date key="time:timestamp" value="2022-02-01T00:47:07.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:45:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="17"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="B2 Human 4979.5"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="2587ee7c-7c9b-4dfe-be57-cc853860d336"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1027.14"/>
+			<date key="time:timestamp" value="2022-02-01T01:10:54.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:01:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="18"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="cec45fa5-4152-4800-8bb9-acced73979c5"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1806.48"/>
+			<date key="time:timestamp" value="2022-02-01T01:34:42.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:20:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="19"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 5"/>
+		<string key="id:Id" value="d864f14d-1efe-4819-a479-7ad7de5b97f2"/>
+		<event>
+			<string key="id:Id" value="7dadedbd-d968-47f1-9848-349973cb2ee5"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="489.25"/>
+			<date key="time:timestamp" value="2022-02-01T01:04:27.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:59:33.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="20"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="d9a23d4a-acdf-4309-8ff8-986bf780dc38"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4979.5"/>
+			<string key="WorkstationIdleTime" value="4602"/>
+			<string key="WorkstationProductionTime" value="2656"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="253"/>
+			<date key="time:timestamp" value="2022-02-01T01:06:56.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:04:27.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="21"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="B2 Human 4979.5"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="eca219d3-f9ea-4948-b1a9-3bf6b0f9f3ed"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="80.58"/>
+			<date key="time:timestamp" value="2022-02-01T01:12:13.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:10:54.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="22"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="7a34f07a-63e3-4e66-b962-b78fa6866255"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="685.62"/>
+			<date key="time:timestamp" value="2022-02-01T01:20:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:13:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="23"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 6"/>
+		<string key="id:Id" value="b8d25061-0474-48d6-b788-02dbd7460060"/>
+		<event>
+			<string key="id:Id" value="6d4da43f-a76b-41aa-9d48-5379a1518783"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="977.55"/>
+			<date key="time:timestamp" value="2022-02-01T00:30:07.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:20:30.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="24"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="74a831a6-0857-4878-b457-4b9f98a3586c"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4924.64"/>
+			<string key="WorkstationIdleTime" value="4511"/>
+			<string key="WorkstationProductionTime" value="2747"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="123.2"/>
+			<date key="time:timestamp" value="2022-02-01T00:32:17.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:30:27.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="25"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="B1 Human 4924.64"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e4df2375-d48f-41b4-ba93-29a7fe659255"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="470.22"/>
+			<date key="time:timestamp" value="2022-02-01T00:36:23.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:31:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="26"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="d1fa720a-9e0f-4ec1-a6b3-4a6f76102b49"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="735.93"/>
+			<date key="time:timestamp" value="2022-02-01T01:13:46.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:07:39.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="27"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 7"/>
+		<string key="id:Id" value="48595772-11db-4668-80bc-c0cc09a7102b"/>
+		<event>
+			<string key="id:Id" value="dd5b7a66-b04c-46e7-a644-462a14e459fa"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="394.25"/>
+			<date key="time:timestamp" value="2022-02-01T00:16:04.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:11:52.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="28"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="6a672994-b360-4ac1-bdf5-7d993280f48c"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="905.76"/>
+			<date key="time:timestamp" value="2022-02-01T00:25:40.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:17:10.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="30"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="1183da82-c383-4c61-bb89-014340fa1823"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4979.5"/>
+			<string key="WorkstationIdleTime" value="4602"/>
+			<string key="WorkstationProductionTime" value="2656"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="300.15"/>
+			<date key="time:timestamp" value="2022-02-01T00:21:10.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:18:15.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="29"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="B2 Human 4979.5"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="eef512c6-b3a2-4b35-bef1-f6662d2ab2f4"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4782"/>
+			<string key="WorkstationIdleTime" value="4907"/>
+			<string key="WorkstationProductionTime" value="2351"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1378.8"/>
+			<date key="time:timestamp" value="2022-02-01T00:36:20.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:25:40.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="31"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="D2 Human 4782"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 8"/>
+		<string key="id:Id" value="b63942e0-72b9-4c63-a5ea-e97fec58dc8b"/>
+		<event>
+			<string key="id:Id" value="11b4584a-414f-4147-ac57-9018f12f714a"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2391.9"/>
+			<string key="WorkstationIdleTime" value="5968"/>
+			<string key="WorkstationProductionTime" value="1290"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1081.71"/>
+			<date key="time:timestamp" value="2022-02-01T00:21:30.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:12:24.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="32"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="A1 Human 2391.9"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="b0de066f-610b-4066-8188-d424b6a351ed"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="350.88"/>
+			<date key="time:timestamp" value="2022-02-01T00:29:07.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:25:40.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="34"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="39a25c54-0ceb-487a-bfd8-eb1cfc50c8c3"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4979.5"/>
+			<string key="WorkstationIdleTime" value="4602"/>
+			<string key="WorkstationProductionTime" value="2656"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="624.45"/>
+			<date key="time:timestamp" value="2022-02-01T00:32:22.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:26:56.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="33"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="B2 Human 4979.5"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="a7f02fdd-1f83-4785-9a44-91e9e3b1b2e2"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4782"/>
+			<string key="WorkstationIdleTime" value="4907"/>
+			<string key="WorkstationProductionTime" value="2351"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="523.2"/>
+			<date key="time:timestamp" value="2022-02-01T00:40:42.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:36:20.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="35"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="D2 Human 4782"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 9"/>
+		<string key="id:Id" value="db3638b6-6b68-4dbe-bde6-26d9dca31975"/>
+		<event>
+			<string key="id:Id" value="9fd3ec44-626b-4f4a-8c65-49367060f4df"/>
+			<string key="org:group" value="A"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="8566.9"/>
+			<string key="org:resource" value="A2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="6175"/>
+			<string key="WorkstationIdleTime" value="3309"/>
+			<string key="WorkstationProductionTime" value="3949"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="98.8"/>
+			<date key="time:timestamp" value="2022-02-01T00:20:30.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:18:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="36"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="A2 Human 6175"/>
+			<string key="WorkGroupSpecific" value="A 0 cobots 8566.9"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e4224ec6-8fab-45e5-adcc-b1909cb1d02a"/>
+			<string key="org:group" value="B"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="9904.14"/>
+			<string key="org:resource" value="B1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4924.64"/>
+			<string key="WorkstationIdleTime" value="4511"/>
+			<string key="WorkstationProductionTime" value="2747"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="479.36"/>
+			<date key="time:timestamp" value="2022-02-01T00:30:27.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T00:26:09.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="37"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="B1 Human 4924.64"/>
+			<string key="WorkGroupSpecific" value="B 0 cobots 9904.14"/>
+		</event>
+		<event>
+			<string key="id:Id" value="cd3dce56-f2bc-45dc-a9d2-839ec079a4eb"/>
+			<string key="org:group" value="C"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="10894.62"/>
+			<string key="org:resource" value="C2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="10894.62"/>
+			<string key="WorkstationIdleTime" value="764"/>
+			<string key="WorkstationProductionTime" value="6494"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="489.6"/>
+			<date key="time:timestamp" value="2022-02-01T01:45:13.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:40:23.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="38"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="C2 Human 10894.62"/>
+			<string key="WorkGroupSpecific" value="C 0 cobots 10894.62"/>
+		</event>
+		<event>
+			<string key="id:Id" value="fd21f0f9-5bfb-4a59-b55f-2ac19d32c2a6"/>
+			<string key="org:group" value="D"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15964.86"/>
+			<string key="org:resource" value="D1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11182.86"/>
+			<string key="WorkstationIdleTime" value="1492"/>
+			<string key="WorkstationProductionTime" value="5766"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="132.21"/>
+			<date key="time:timestamp" value="2022-02-01T01:50:09.000+01:00"/>
+			<date key="start_timestamp" value="2022-02-01T01:48:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="39"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="D1 Human 11182.86"/>
+			<string key="WorkGroupSpecific" value="D 0 cobots 15964.86"/>
+		</event>
+	</trace>
+</log>

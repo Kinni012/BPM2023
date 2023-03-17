@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0" xes.features="nested - attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<extension name="Cost" prefix="cost" uri="http://www.xes-standard.org/cost.xesext"/>
+	<extension name="ID" prefix="id" uri="http://www.xes-standard.org/identity.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="UNKNOWN"/>
+		<string key="org:group" value="UNKNOWN"/>
+	</global>
+	<global scope="event">
+		<date key="time:timestamp" value="1970-01-01T00:00:00+01:00"/>
+		<string key="concept:name" value="UNKNOWN"/>
+		<string key="lifecycle:transition" value="complete"/>
+	</global>
+	<classifier name="MXML Legacy Classifier" keys="WorkstationsSpecific"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="Resource" keys="org:resource"/>
+	<classifier name="Order" keys="Order"/>
+	<classifier name="Cobot" keys="org:role"/>
+	<string key="description" value="Simulated process"/>
+	<string key="lifecycle:model" value="standard"/>
+	<string key="Fitness cost" value="21081.59"/>
+	<string key="Fitness time" value="7654"/>
+	<trace>
+		<string key="Order" value="TestOrder 0"/>
+		<string key="id:Id" value="09af3478-6272-40c3-a18d-9bf3e0bdef68"/>
+		<event>
+			<string key="id:Id" value="0d98a131-d640-4774-b9fb-bb27b5d98951"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="165.43"/>
+			<date key="time:timestamp" value="2022-01-15T00:02:36.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:00:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="0"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="69a2017c-3664-49fe-a4ec-b62371e83219"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="52.64"/>
+			<date key="time:timestamp" value="2022-01-15T00:03:23.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:02:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="1"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="720111c2-416c-414e-a22c-2298a3fe8b51"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="829.08"/>
+			<date key="time:timestamp" value="2022-01-15T00:10:40.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:02:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="2"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="3d323e28-3699-410b-bd23-dc97c8152501"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1142.4"/>
+			<date key="time:timestamp" value="2022-01-15T00:23:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:10:40.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="3"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 1"/>
+		<string key="id:Id" value="7c99410a-c836-4aa2-bd43-9245e6496faf"/>
+		<event>
+			<string key="id:Id" value="a4606e5f-710e-4d16-8975-26f6101eab70"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="113.6"/>
+			<date key="time:timestamp" value="2022-01-15T00:04:23.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:02:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="4"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="d1db73a1-8ebf-4a70-83ca-f7148a3f607b"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="484.96"/>
+			<date key="time:timestamp" value="2022-01-15T00:08:46.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:04:23.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="5"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e37cc38e-549d-4843-b231-4100bf1dd6d0"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="136.22"/>
+			<date key="time:timestamp" value="2022-01-15T00:12:59.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:10:40.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="6"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="989967ae-6d7a-4278-be31-ebb90e696949"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="492.24"/>
+			<date key="time:timestamp" value="2022-01-15T00:29:10.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:23:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="7"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 10"/>
+		<string key="id:Id" value="d1a8b17f-74d8-461b-9dbb-8656ad543720"/>
+		<event>
+			<string key="id:Id" value="f077204e-6c05-4371-9860-f5f1280f38be"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="220.1"/>
+			<date key="time:timestamp" value="2022-01-15T00:49:32.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:46:26.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="40"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="00f8fad7-4aeb-4643-a84a-df481c87b966"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="489.02"/>
+			<date key="time:timestamp" value="2022-01-15T00:59:10.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:54:09.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="42"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="04f15fd4-bbe3-47a6-90e2-bc3135ac2a00"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="95.2"/>
+			<date key="time:timestamp" value="2022-01-15T00:56:09.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:54:44.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="41"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="7652c7af-2e66-4b75-a435-9dac4c770a1b"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="380.52"/>
+			<date key="time:timestamp" value="2022-01-15T01:12:55.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:08:18.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="43"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 11"/>
+		<string key="id:Id" value="0f33338d-f1da-42bf-a6f2-ba672585926b"/>
+		<event>
+			<string key="id:Id" value="e91461d2-6599-4509-b98c-a57e166a4e9b"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="45.44"/>
+			<date key="time:timestamp" value="2022-01-15T00:50:36.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:49:32.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="44"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="ee9ed2fc-1936-4aaa-95f6-c68115fc924c"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="66.08"/>
+			<date key="time:timestamp" value="2022-01-15T00:57:08.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:56:09.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="45"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="c254bda1-8b30-48aa-8e8f-e1957f06709f"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1009.4"/>
+			<date key="time:timestamp" value="2022-01-15T01:08:58.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:59:10.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="46"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="a739cbca-5bb7-4d84-8c86-93960ce5c378"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="899.64"/>
+			<date key="time:timestamp" value="2022-01-15T01:22:57.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:12:55.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="47"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 12"/>
+		<string key="id:Id" value="b0527eef-dc6b-4c86-9467-e9b5c342ee71"/>
+		<event>
+			<string key="id:Id" value="bfd0911b-beff-4c1a-acb9-df85a892768b"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="232.88"/>
+			<date key="time:timestamp" value="2022-01-15T00:53:55.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:50:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="48"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="e786f0f3-ca86-4628-850b-a24087ac92df"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="103.04"/>
+			<date key="time:timestamp" value="2022-01-15T00:58:40.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:57:08.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="49"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="0b7685b2-11fe-47da-bd63-e84fb620c38e"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1091.72"/>
+			<date key="time:timestamp" value="2022-01-15T01:19:36.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:08:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="50"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="3532b142-2f0d-4999-8994-0adde12686de"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="840"/>
+			<date key="time:timestamp" value="2022-01-15T01:32:33.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:22:57.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="51"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 13"/>
+		<string key="id:Id" value="20d23fd0-8812-48e4-99ed-02af9c1ec508"/>
+		<event>
+			<string key="id:Id" value="768862a3-bfae-4afe-af1e-387e0b46eb69"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="325.18"/>
+			<date key="time:timestamp" value="2022-01-15T00:58:31.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:53:55.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="52"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="2847932e-800f-48d1-928d-d647346dba29"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="770.56"/>
+			<date key="time:timestamp" value="2022-01-15T01:05:06.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:58:40.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="53"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f1c16b9e-f287-4e1e-9017-3c9f68e4b754"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="845.74"/>
+			<date key="time:timestamp" value="2022-01-15T01:28:17.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:19:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="54"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="7c69e192-4ecd-409d-8aba-a0f36ab28457"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="848.4"/>
+			<date key="time:timestamp" value="2022-01-15T01:42:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:32:33.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="55"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 14"/>
+		<string key="id:Id" value="eb47f844-a255-4889-990d-f2c297bc9283"/>
+		<event>
+			<string key="id:Id" value="ab068310-bd32-434d-be68-0be81e72d51c"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="146.97"/>
+			<date key="time:timestamp" value="2022-01-15T01:00:34.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:58:31.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="56"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="ed0a96d3-7547-4092-a8b4-a5181855e82d"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="480.48"/>
+			<date key="time:timestamp" value="2022-01-15T01:09:15.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:05:06.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="57"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="ec6b5e3d-2861-4484-907c-01f51d4f2a62"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="140.14"/>
+			<date key="time:timestamp" value="2022-01-15T01:30:40.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:28:17.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="58"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="a8dd614c-6457-446d-889a-95a0dd517374"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="435.12"/>
+			<date key="time:timestamp" value="2022-01-15T01:47:03.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:42:16.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="59"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 15"/>
+		<string key="id:Id" value="1d95a656-44ca-47a3-be5f-7f4016dae907"/>
+		<event>
+			<string key="id:Id" value="651fe5bd-4e19-4fb9-ade7-2ad6ce202181"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="288.26"/>
+			<date key="time:timestamp" value="2022-01-15T01:04:30.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:00:34.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="60"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="a7546142-3265-4c8a-9ba9-d04b032bcf51"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="104.16"/>
+			<date key="time:timestamp" value="2022-01-15T01:10:48.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:09:15.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="61"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="78c58d20-11f5-4eb5-a239-4be56c8e8a2f"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="734.02"/>
+			<date key="time:timestamp" value="2022-01-15T01:37:50.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:30:40.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="62"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="a3f34813-ccd7-4503-90ec-b5bd3d5a96ca"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="136.92"/>
+			<date key="time:timestamp" value="2022-01-15T01:49:46.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:47:03.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="63"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 16"/>
+		<string key="id:Id" value="03fddfca-4639-4a51-a808-89b941169ec8"/>
+		<event>
+			<string key="id:Id" value="d124ef03-1b95-4f8f-a7bb-0a53d9952f29"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="383.4"/>
+			<date key="time:timestamp" value="2022-01-15T01:09:39.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:04:30.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="64"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="2cca2665-9b90-4b88-9c45-2c81a8481eb7"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="844.48"/>
+			<date key="time:timestamp" value="2022-01-15T01:17:49.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:10:48.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="65"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="947bffd9-2ce2-444d-b279-99f5ef5cd646"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="514.5"/>
+			<date key="time:timestamp" value="2022-01-15T01:43:38.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:37:50.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="66"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="b2b5e31a-26b3-4afe-a4df-8c9973957c0c"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="483.84"/>
+			<date key="time:timestamp" value="2022-01-15T01:55:30.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:49:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="67"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 17"/>
+		<string key="id:Id" value="4fb62236-a04f-4256-8c08-96312ea56b1b"/>
+		<event>
+			<string key="id:Id" value="34dfb012-cd73-4faf-84c9-3e87d5a53599"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="88.04"/>
+			<date key="time:timestamp" value="2022-01-15T01:11:03.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:09:39.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="68"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="bce1aab5-04d6-4029-9c67-ba273d43b0c3"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="361.76"/>
+			<date key="time:timestamp" value="2022-01-15T01:20:55.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:17:49.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="69"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="59cc7e20-a9b6-417f-a4db-019f5463f5d7"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="388.08"/>
+			<date key="time:timestamp" value="2022-01-15T01:47:43.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:43:38.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="70"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="60e175f0-34c2-4ba5-bf07-ec9c1ba958b5"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="99.96"/>
+			<date key="time:timestamp" value="2022-01-15T01:57:29.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:55:30.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="71"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 18"/>
+		<string key="id:Id" value="8aebe7ad-6e67-4014-bfee-1d51a28daf5b"/>
+		<event>
+			<string key="id:Id" value="740f213d-0269-487e-81f8-7c869c3892ff"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="80.23"/>
+			<date key="time:timestamp" value="2022-01-15T01:12:56.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:11:03.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="72"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="dbc23d4c-2f08-4893-abbb-821eba3ef695"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="379.68"/>
+			<date key="time:timestamp" value="2022-01-15T01:24:13.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:20:55.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="73"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="7021b04d-e21c-4a38-bc85-05e3809b7c69"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="735"/>
+			<date key="time:timestamp" value="2022-01-15T01:55:17.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:47:43.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="74"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="016bd077-780a-418f-9588-6892fd3fa554"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="754.32"/>
+			<date key="time:timestamp" value="2022-01-15T02:05:54.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:57:29.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="75"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 19"/>
+		<string key="id:Id" value="88a480bf-9b4a-48a2-9091-5bfaa29b161b"/>
+		<event>
+			<string key="id:Id" value="76eb7b65-0a7c-41e0-89c0-2834f7c3badd"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="521.14"/>
+			<date key="time:timestamp" value="2022-01-15T01:19:45.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:12:56.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="76"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="44e1cad8-a24c-46cd-a5fc-56df22380ba4"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="303.52"/>
+			<date key="time:timestamp" value="2022-01-15T01:26:57.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:24:13.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="77"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="1ec54c0b-5a1f-4059-bb32-6e9b3c6886ce"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="841.82"/>
+			<date key="time:timestamp" value="2022-01-15T02:03:53.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:55:17.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="78"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="59776d45-5c4c-416a-85dc-dc4032f1943d"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="84"/>
+			<date key="time:timestamp" value="2022-01-15T02:07:34.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T02:05:54.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="79"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 2"/>
+		<string key="id:Id" value="4937819e-da54-42a9-8e32-e7c5f7b4bd22"/>
+		<event>
+			<string key="id:Id" value="333ff762-d523-4430-b6e4-c841ecd33cd4"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="406.12"/>
+			<date key="time:timestamp" value="2022-01-15T00:10:05.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:04:23.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="8"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="98db2633-14bc-4b6a-84eb-c3d4e1dbe3a5"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="329.28"/>
+			<date key="time:timestamp" value="2022-01-15T00:13:20.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:10:05.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="9"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="21933159-b422-4462-b455-3043db56346f"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="575.26"/>
+			<date key="time:timestamp" value="2022-01-15T00:18:37.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:12:59.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="10"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="66cb9484-0647-481a-a0d6-e3506e82dae9"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="93.24"/>
+			<date key="time:timestamp" value="2022-01-15T00:31:01.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:29:10.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="11"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 3"/>
+		<string key="id:Id" value="4c07e65d-1435-436a-b638-d9cb79047685"/>
+		<event>
+			<string key="id:Id" value="808f0389-a9b9-4c64-af1c-145fbc6b8d12"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="252.76"/>
+			<date key="time:timestamp" value="2022-01-15T00:13:43.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:10:05.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="12"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="9e4f9f10-18e0-4dd1-9ac8-58553f3fa0cf"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="394.24"/>
+			<date key="time:timestamp" value="2022-01-15T00:17:16.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:13:43.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="13"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="affb6437-057c-43ae-a815-193aaf1cc682"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="758.52"/>
+			<date key="time:timestamp" value="2022-01-15T00:26:28.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:18:37.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="14"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="ee15eafa-9031-4f97-a1c8-de866a54f57a"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="657.72"/>
+			<date key="time:timestamp" value="2022-01-15T00:38:55.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:31:01.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="15"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 4"/>
+		<string key="id:Id" value="7cee9fa2-7856-483c-b2ba-179fd3b6c76e"/>
+		<event>
+			<string key="id:Id" value="f9ef2137-668b-4b0b-af8f-34e6f537e774"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="304.59"/>
+			<date key="time:timestamp" value="2022-01-15T00:17:58.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:13:43.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="16"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="fd2ea827-53de-4874-9b3d-bebdb89381ad"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="60.48"/>
+			<date key="time:timestamp" value="2022-01-15T00:18:52.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:17:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="17"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="deadba5b-d0b0-45fe-963f-1968f4c1e366"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="450.8"/>
+			<date key="time:timestamp" value="2022-01-15T00:30:50.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:26:28.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="18"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="6fd9ce0e-c8ae-480c-b422-03f0286bcc45"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="82.32"/>
+			<date key="time:timestamp" value="2022-01-15T00:40:33.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:38:55.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="19"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 5"/>
+		<string key="id:Id" value="7efd2120-c4e1-4a5c-92e3-c4a2960551f1"/>
+		<event>
+			<string key="id:Id" value="f422dc43-86a6-4878-a57c-58a8f6bebd8f"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="430.97"/>
+			<date key="time:timestamp" value="2022-01-15T00:23:47.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:17:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="20"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="5f8cac67-aba8-4a9b-81d3-67f589dedc71"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="554.4"/>
+			<date key="time:timestamp" value="2022-01-15T00:28:46.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:23:47.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="21"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="9d081ca1-780e-4498-b343-4e2cc999eacd"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="120.54"/>
+			<date key="time:timestamp" value="2022-01-15T00:32:53.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:30:50.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="22"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="429f38d8-d1be-47ce-a74c-f65dd5c194d8"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="843.36"/>
+			<date key="time:timestamp" value="2022-01-15T00:50:10.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:40:33.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="23"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 6"/>
+		<string key="id:Id" value="307ee5ea-e0bd-4b07-820e-494c4fcec773"/>
+		<event>
+			<string key="id:Id" value="91e23b19-2c0e-4462-83bf-5cd5d4a7e1c6"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="694.38"/>
+			<date key="time:timestamp" value="2022-01-15T00:32:55.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:23:47.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="24"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="593359a0-0879-4947-9e46-1fb689d3482a"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="504"/>
+			<date key="time:timestamp" value="2022-01-15T00:37:12.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:32:55.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="25"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="cf141e81-fced-40cb-aa62-429f450c51e2"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="329.28"/>
+			<date key="time:timestamp" value="2022-01-15T00:36:42.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:32:55.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="26"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="992f3fee-dab2-4411-85f0-e746e71329f8"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="72.24"/>
+			<date key="time:timestamp" value="2022-01-15T00:51:36.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:50:10.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="27"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 7"/>
+		<string key="id:Id" value="5582cf48-23f7-4c54-93de-cb2501b41ead"/>
+		<event>
+			<string key="id:Id" value="27ffc147-3fcd-4bec-8055-2115174c5ed2"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="234.3"/>
+			<date key="time:timestamp" value="2022-01-15T00:36:35.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:32:55.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="28"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="fb921da6-9ed8-4394-bef6-31970d79535d"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="138.18"/>
+			<date key="time:timestamp" value="2022-01-15T00:39:03.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:36:42.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="30"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="c185e835-6578-43ef-ba23-9629853723c7"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1028.16"/>
+			<date key="time:timestamp" value="2022-01-15T00:45:47.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:37:12.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="29"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="81b1b88d-c883-44fc-9c28-4468fb10397a"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="343.56"/>
+			<date key="time:timestamp" value="2022-01-15T00:55:41.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:51:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="31"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 8"/>
+		<string key="id:Id" value="4436bed3-938c-4849-b9b3-c1803b75f3c0"/>
+		<event>
+			<string key="id:Id" value="e5736e4e-a70a-444b-88e3-6ec3fe61a1fe"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="232.17"/>
+			<date key="time:timestamp" value="2022-01-15T00:39:46.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:36:35.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="32"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="150481a1-3c3c-4cc4-b88e-b27a0ffa88e0"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="398.86"/>
+			<date key="time:timestamp" value="2022-01-15T00:44:18.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:39:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="3"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="34"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="617451ca-edb4-4cb6-8929-6dcdbc64f856"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="414.4"/>
+			<date key="time:timestamp" value="2022-01-15T00:49:31.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:45:47.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="33"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="c5176fe8-b82b-4b58-83f6-ba184363f02e"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="829.92"/>
+			<date key="time:timestamp" value="2022-01-15T01:05:09.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:55:41.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="35"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 9"/>
+		<string key="id:Id" value="567037dd-e04e-45d6-8ef5-0a967fc4079f"/>
+		<event>
+			<string key="id:Id" value="21ce379d-af08-4894-b00e-fb2434f83ffa"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="5674.32"/>
+			<string key="WorkstationIdleTime" value="2869"/>
+			<string key="WorkstationProductionTime" value="4785"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="508.36"/>
+			<date key="time:timestamp" value="2022-01-15T00:46:26.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:39:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="9"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="36"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Preconditioning1 Human 5674.32"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="dabcf452-d60d-4164-950f-9154770540da"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="11277.84"/>
+			<string key="WorkstationIdleTime" value="550"/>
+			<string key="WorkstationProductionTime" value="7104"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="751.66"/>
+			<date key="time:timestamp" value="2022-01-15T00:54:09.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:46:26.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="38"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Welding1 Human 11277.84"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+		<event>
+			<string key="id:Id" value="fbe574dc-c341-4388-b673-fc047859d295"/>
+			<string key="org:group" value="Preconditioning"/>
+			<string key="WorkstationGroupCobots" value="1 cobots"/>
+			<string key="WorkstationGroupCosts" value="13590.48"/>
+			<string key="org:resource" value="Preconditioning2"/>
+			<string key="org:role" value="Human and Cobot"/>
+			<string key="WorkstationCost" value="7916.16"/>
+			<string key="WorkstationIdleTime" value="3341"/>
+			<string key="WorkstationProductionTime" value="4313"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="584.64"/>
+			<date key="time:timestamp" value="2022-01-15T00:54:44.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T00:49:31.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="37"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Preconditioning2 Human and Cobot 7916.16"/>
+			<string key="WorkGroupSpecific" value="Preconditioning 1 cobots 13590.48"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f9bc7300-0e28-40b7-a596-c7b6b915abc6"/>
+			<string key="org:group" value="Welding"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="21061.32"/>
+			<string key="org:resource" value="Welding2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="9783.48"/>
+			<string key="WorkstationIdleTime" value="640"/>
+			<string key="WorkstationProductionTime" value="7014"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="263.76"/>
+			<date key="time:timestamp" value="2022-01-15T01:08:18.000+01:00"/>
+			<date key="start_timestamp" value="2022-01-15T01:05:09.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="5"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="39"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Welding2 Human 9783.48"/>
+			<string key="WorkGroupSpecific" value="Welding 0 cobots 21061.32"/>
+		</event>
+	</trace>
+</log>

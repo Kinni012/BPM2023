@@ -1,0 +1,14 @@
+C:\develop\easy4sim\easy4SimFramework\bin\Release\Easy4SimFramework.dll.config
+C:\develop\easy4sim\easy4SimFramework\bin\Release\Easy4SimFramework.dll
+C:\develop\easy4sim\easy4SimFramework\bin\Release\Easy4SimFramework.pdb
+C:\develop\easy4sim\easy4SimFramework\bin\Release\Google.Protobuf.dll
+C:\develop\easy4sim\easy4SimFramework\bin\Release\HEAL.Attic.dll
+C:\develop\easy4sim\easy4SimFramework\bin\Release\log4net.dll
+C:\develop\easy4sim\easy4SimFramework\bin\Release\System.Drawing.Common.dll
+C:\develop\easy4sim\easy4SimFramework\bin\Release\Google.Protobuf.xml
+C:\develop\easy4sim\easy4SimFramework\bin\Release\log4net.xml
+C:\develop\easy4sim\easy4SimFramework\obj\Release\Easy4SimFramework.csproj.CoreCompileInputs.cache
+C:\develop\easy4sim\easy4SimFramework\obj\Release\Easy4SimFramework.dll
+C:\develop\easy4sim\easy4SimFramework\obj\Release\Easy4SimFramework.pdb
+C:\develop\easy4sim\easy4SimFramework\obj\Release\Easy4SimFramework.csproj.CopyComplete
+C:\develop\easy4sim\easy4SimFramework\obj\Release\easy4SimFramework.csproj.AssemblyReference.cache

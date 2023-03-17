@@ -1,0 +1,4 @@
+Real,CP_Comparison_1,time,3600000,UniformSomePositionsArithmeticCrossover,PolynomialAllPositionManipulator,ProportionalSelector,VNS %:,0.1,VNSI %:,0.9,Best cost:,238857.29,Best Time:, 9215,0.949326924173631
+Minimize or maximize:,1,Time factor:,1,Cost factor:,1
+Amount of Cobots:,0,ApplyVns:,True,Real,CP_Comparison_1
+0.949326924173631

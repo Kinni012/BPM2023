@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0" xes.features="nested - attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<extension name="Cost" prefix="cost" uri="http://www.xes-standard.org/cost.xesext"/>
+	<extension name="ID" prefix="id" uri="http://www.xes-standard.org/identity.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="UNKNOWN"/>
+		<string key="org:group" value="UNKNOWN"/>
+	</global>
+	<global scope="event">
+		<date key="time:timestamp" value="1970-01-01T00:00:00+01:00"/>
+		<string key="concept:name" value="UNKNOWN"/>
+		<string key="lifecycle:transition" value="complete"/>
+	</global>
+	<classifier name="MXML Legacy Classifier" keys="WorkstationsSpecific"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="Resource" keys="org:resource"/>
+	<classifier name="Order" keys="Order"/>
+	<classifier name="Cobot" keys="org:role"/>
+	<string key="description" value="Simulated process"/>
+	<string key="lifecycle:model" value="standard"/>
+	<string key="Fitness cost" value="20369.95"/>
+	<string key="Fitness time" value="2914"/>
+	<trace>
+		<string key="Order" value="TestOrder 0"/>
+		<string key="id:Id" value="cacbd35c-fe57-49be-a992-ab2dc2917295"/>
+		<event>
+			<string key="id:Id" value="59680a7f-213e-4f3e-883a-98333a19b16c"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="1310.4"/>
+			<string key="WorkstationIdleTime" value="2361"/>
+			<string key="WorkstationProductionTime" value="553"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="709.44"/>
+			<date key="time:timestamp" value="2021-12-04T00:05:01.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:00:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="0"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Preparation3 Human 1310.4"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="a4f6b8a1-29f8-4e37-ae2d-d2c02961779c"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling5"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3175.2"/>
+			<string key="WorkstationIdleTime" value="1574"/>
+			<string key="WorkstationProductionTime" value="1340"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1079.96"/>
+			<date key="time:timestamp" value="2021-12-04T00:23:57.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:16:31.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="1"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Drilling5 Human 3175.2"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="703f6b7b-4c5f-423b-b86b-45a8a46b7dad"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2178.54"/>
+			<string key="WorkstationIdleTime" value="1749"/>
+			<string key="WorkstationProductionTime" value="1165"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1245.66"/>
+			<date key="time:timestamp" value="2021-12-04T00:34:16.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:23:57.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="2"/>
+			<string key="Order" value="TestOrder 0"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control4 Human 2178.54"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 1"/>
+		<string key="id:Id" value="9992c725-3c74-4f19-a5d5-a04844481593"/>
+		<event>
+			<string key="id:Id" value="05176ba2-f894-43be-a082-17ef2745081e"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation5"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="1244.96"/>
+			<string key="WorkstationIdleTime" value="2352"/>
+			<string key="WorkstationProductionTime" value="562"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="120.28"/>
+			<date key="time:timestamp" value="2021-12-04T00:01:37.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:00:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="3"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Preparation5 Human 1244.96"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="ef1d530c-ba48-4252-a301-7d565c464a22"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling5"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3175.2"/>
+			<string key="WorkstationIdleTime" value="1574"/>
+			<string key="WorkstationProductionTime" value="1340"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1068.2"/>
+			<date key="time:timestamp" value="2021-12-04T00:09:35.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:01:37.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="4"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Drilling5 Human 3175.2"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="4a1c5a19-4ff7-451c-b8fe-aa6df5fdf7e7"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3390.78"/>
+			<string key="WorkstationIdleTime" value="1196"/>
+			<string key="WorkstationProductionTime" value="1718"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="251.1"/>
+			<date key="time:timestamp" value="2021-12-04T00:11:55.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:09:35.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="5"/>
+			<string key="Order" value="TestOrder 1"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control3 Human 3390.78"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 10"/>
+		<string key="id:Id" value="7fb5595c-afe2-40fc-92f2-a9dfed0412a1"/>
+		<event>
+			<string key="id:Id" value="6f05e54b-b66f-43c6-a666-bec35771888b"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2527.62"/>
+			<string key="WorkstationIdleTime" value="1896"/>
+			<string key="WorkstationProductionTime" value="1018"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="508.82"/>
+			<date key="time:timestamp" value="2021-12-04T00:03:36.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:00:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="30"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Preparation1 Human 2527.62"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="b8d08cd4-4b5e-4668-a393-a048fcdc0e34"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2419.34"/>
+			<string key="WorkstationIdleTime" value="1536"/>
+			<string key="WorkstationProductionTime" value="1378"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="588.28"/>
+			<date key="time:timestamp" value="2021-12-04T00:08:46.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:03:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="31"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Drilling4 Human 2419.34"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="23555242-bded-4e4c-a9ed-1a426102daaa"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2091"/>
+			<string key="WorkstationIdleTime" value="1999"/>
+			<string key="WorkstationProductionTime" value="915"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1198"/>
+			<date key="time:timestamp" value="2021-12-04T00:16:46.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:08:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="32"/>
+			<string key="Order" value="TestOrder 10"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control6 Human 2091"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 11"/>
+		<string key="id:Id" value="9130b71d-d27b-4a11-97ff-50ec1e012da3"/>
+		<event>
+			<string key="id:Id" value="cf65a51b-b7f1-4105-8e22-e2d77febe6fe"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation5"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="1244.96"/>
+			<string key="WorkstationIdleTime" value="2352"/>
+			<string key="WorkstationProductionTime" value="562"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="927.52"/>
+			<date key="time:timestamp" value="2021-12-04T00:06:43.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:01:37.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="33"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Preparation5 Human 1244.96"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="cd56b338-277e-42eb-ad4e-8d977b04fcd1"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2419.34"/>
+			<string key="WorkstationIdleTime" value="1536"/>
+			<string key="WorkstationProductionTime" value="1378"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="282.59"/>
+			<date key="time:timestamp" value="2021-12-04T00:23:11.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:20:34.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="34"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Drilling4 Human 2419.34"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="aabdec9d-9275-4cc0-8eaf-554b34e9488f"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control5"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2924"/>
+			<string key="WorkstationIdleTime" value="1640"/>
+			<string key="WorkstationProductionTime" value="1274"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="611"/>
+			<date key="time:timestamp" value="2021-12-04T00:27:54.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:23:29.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="35"/>
+			<string key="Order" value="TestOrder 11"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control5 Human 2924"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 12"/>
+		<string key="id:Id" value="88a04128-d3a0-4d95-8677-ec07a766669e"/>
+		<event>
+			<string key="id:Id" value="32de046e-f072-4054-8eae-f3b4ebdddbaf"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3622.08"/>
+			<string key="WorkstationIdleTime" value="1448"/>
+			<string key="WorkstationProductionTime" value="1466"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1484.7"/>
+			<date key="time:timestamp" value="2021-12-04T00:24:26.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:14:35.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="36"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Preparation4 Human 3622.08"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="c39c109a-309c-4dad-9a9d-ccdce214e6b6"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2676.75"/>
+			<string key="WorkstationIdleTime" value="2039"/>
+			<string key="WorkstationProductionTime" value="875"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="2074.32"/>
+			<date key="time:timestamp" value="2021-12-04T00:34:50.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:24:26.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="37"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Drilling3 Human 2676.75"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="bb5090b8-d436-4bda-853d-d8e2f6d18c19"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="878.08"/>
+			<string key="WorkstationIdleTime" value="2552"/>
+			<string key="WorkstationProductionTime" value="362"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="878.08"/>
+			<date key="time:timestamp" value="2021-12-04T00:40:52.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:34:50.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="38"/>
+			<string key="Order" value="TestOrder 12"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control1 Human 878.08"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 13"/>
+		<string key="id:Id" value="92b5dbed-1d09-471c-b767-7fa97750ccb9"/>
+		<event>
+			<string key="id:Id" value="e5c6299c-3b36-45ab-be8a-16ecbd363f86"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2758.42"/>
+			<string key="WorkstationIdleTime" value="1939"/>
+			<string key="WorkstationProductionTime" value="975"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="401.38"/>
+			<date key="time:timestamp" value="2021-12-04T00:16:15.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:13:26.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="39"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Preparation2 Human 2758.42"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="0ffaed80-c967-4989-b17a-4b2127108294"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2419.34"/>
+			<string key="WorkstationIdleTime" value="1536"/>
+			<string key="WorkstationProductionTime" value="1378"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="307.23"/>
+			<date key="time:timestamp" value="2021-12-04T00:26:34.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:23:11.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="40"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Drilling4 Human 2419.34"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="cae2d801-50e5-4ebe-b3dc-b965219ec873"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3390.78"/>
+			<string key="WorkstationIdleTime" value="1196"/>
+			<string key="WorkstationProductionTime" value="1718"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="133.92"/>
+			<date key="time:timestamp" value="2021-12-04T00:28:58.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:26:34.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="41"/>
+			<string key="Order" value="TestOrder 13"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control3 Human 3390.78"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 14"/>
+		<string key="id:Id" value="7220ae2c-4f46-45c3-8f18-7ea904318106"/>
+		<event>
+			<string key="id:Id" value="044d6c80-617f-4afc-b514-3c5f02a1b89a"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2527.62"/>
+			<string key="WorkstationIdleTime" value="1896"/>
+			<string key="WorkstationProductionTime" value="1018"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1446.12"/>
+			<date key="time:timestamp" value="2021-12-04T00:13:00.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:03:36.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="42"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Preparation1 Human 2527.62"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="5e067ff6-587a-4118-9363-57815260b3a1"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2676.75"/>
+			<string key="WorkstationIdleTime" value="2039"/>
+			<string key="WorkstationProductionTime" value="875"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="101.91"/>
+			<date key="time:timestamp" value="2021-12-04T00:14:19.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:13:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="43"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Drilling3 Human 2676.75"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="76537f69-0b9a-4ee0-9e3d-f315def6924a"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control5"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2924"/>
+			<string key="WorkstationIdleTime" value="1640"/>
+			<string key="WorkstationProductionTime" value="1274"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1147"/>
+			<date key="time:timestamp" value="2021-12-04T00:21:46.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:14:19.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="44"/>
+			<string key="Order" value="TestOrder 14"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control5 Human 2924"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 15"/>
+		<string key="id:Id" value="fa2fda41-a615-4505-96f3-6baef0cf230e"/>
+		<event>
+			<string key="id:Id" value="5c15909d-2e22-4a3a-bac5-1cf92359e873"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2758.42"/>
+			<string key="WorkstationIdleTime" value="1939"/>
+			<string key="WorkstationProductionTime" value="975"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="980.88"/>
+			<date key="time:timestamp" value="2021-12-04T00:05:48.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:00:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="45"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Preparation2 Human 2758.42"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="fee74341-5bfb-4e17-8582-5c90e56dda2d"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="1468.04"/>
+			<string key="WorkstationIdleTime" value="2212"/>
+			<string key="WorkstationProductionTime" value="702"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="97.02"/>
+			<date key="time:timestamp" value="2021-12-04T00:07:27.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:05:48.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="46"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Drilling6 Human 1468.04"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="b9106580-4a47-46af-8ded-54a95a4b5453"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3222.76"/>
+			<string key="WorkstationIdleTime" value="1819"/>
+			<string key="WorkstationProductionTime" value="1095"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1796.76"/>
+			<date key="time:timestamp" value="2021-12-04T00:16:42.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:07:27.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="47"/>
+			<string key="Order" value="TestOrder 15"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control2 Human 3222.76"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 16"/>
+		<string key="id:Id" value="a0f569d0-349f-4d8b-a85e-864f51de7f0e"/>
+		<event>
+			<string key="id:Id" value="d9552911-d4cd-4391-b2a4-25d408e39533"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4142.88"/>
+			<string key="WorkstationIdleTime" value="1347"/>
+			<string key="WorkstationProductionTime" value="1567"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="957.6"/>
+			<date key="time:timestamp" value="2021-12-04T00:13:02.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:06:49.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="48"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Preparation6 Human 4142.88"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="013dacb3-0488-4be6-8c83-5df599a21736"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2676.75"/>
+			<string key="WorkstationIdleTime" value="2039"/>
+			<string key="WorkstationProductionTime" value="875"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="500.52"/>
+			<date key="time:timestamp" value="2021-12-04T00:17:11.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:14:19.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="49"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Drilling3 Human 2676.75"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="8a98288e-6189-42ee-9523-838f5113ee47"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control5"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2924"/>
+			<string key="WorkstationIdleTime" value="1640"/>
+			<string key="WorkstationProductionTime" value="1274"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="103"/>
+			<date key="time:timestamp" value="2021-12-04T00:23:29.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:21:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="50"/>
+			<string key="Order" value="TestOrder 16"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control5 Human 2924"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 17"/>
+		<string key="id:Id" value="30b7ea57-eb41-4c14-a5f9-c2b3a28f7ec3"/>
+		<event>
+			<string key="id:Id" value="59d6f217-ddf5-4e4b-9117-516cc2ac4f9f"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2758.42"/>
+			<string key="WorkstationIdleTime" value="1939"/>
+			<string key="WorkstationProductionTime" value="975"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1376.16"/>
+			<date key="time:timestamp" value="2021-12-04T00:13:26.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:05:48.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="51"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Preparation2 Human 2758.42"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="3ee80ff9-4bcd-4118-bed2-a6a686f3434b"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4627.98"/>
+			<string key="WorkstationIdleTime" value="1429"/>
+			<string key="WorkstationProductionTime" value="1485"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1219.68"/>
+			<date key="time:timestamp" value="2021-12-04T00:29:28.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:22:30.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="52"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Drilling1 Human 4627.98"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="f53aa8c1-0605-481e-9c31-cc50e03dd8fb"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3390.78"/>
+			<string key="WorkstationIdleTime" value="1196"/>
+			<string key="WorkstationProductionTime" value="1718"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1548.45"/>
+			<date key="time:timestamp" value="2021-12-04T00:45:10.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:34:23.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="53"/>
+			<string key="Order" value="TestOrder 17"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control3 Human 3390.78"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 18"/>
+		<string key="id:Id" value="19c4c08b-0425-4c65-8dbc-476b31691051"/>
+		<event>
+			<string key="id:Id" value="3bcf1666-f0c8-4215-bc6c-affda75e6453"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4142.88"/>
+			<string key="WorkstationIdleTime" value="1347"/>
+			<string key="WorkstationProductionTime" value="1567"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="686.56"/>
+			<date key="time:timestamp" value="2021-12-04T00:18:03.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:14:08.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="54"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Preparation6 Human 4142.88"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="a4397d1a-7c9b-4557-81a7-f2f9c18d87ca"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2916.24"/>
+			<string key="WorkstationIdleTime" value="1486"/>
+			<string key="WorkstationProductionTime" value="1428"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="488.07"/>
+			<date key="time:timestamp" value="2021-12-04T00:27:10.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:22:29.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="55"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Drilling2 Human 2916.24"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="034266dd-e1da-4cce-94c7-9d073a95fcf0"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2091"/>
+			<string key="WorkstationIdleTime" value="1999"/>
+			<string key="WorkstationProductionTime" value="915"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="83"/>
+			<date key="time:timestamp" value="2021-12-04T00:29:44.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:28:21.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="56"/>
+			<string key="Order" value="TestOrder 18"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control6 Human 2091"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 19"/>
+		<string key="id:Id" value="752e4b4a-ea8e-4f98-b414-9ce28f6899fa"/>
+		<event>
+			<string key="id:Id" value="cbf007b2-5775-4c0f-84a4-0c1c9ed4485f"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4142.88"/>
+			<string key="WorkstationIdleTime" value="1347"/>
+			<string key="WorkstationProductionTime" value="1567"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="813.12"/>
+			<date key="time:timestamp" value="2021-12-04T00:22:45.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:18:03.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="57"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Preparation6 Human 4142.88"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="af051b30-22b1-44a4-8a96-e41b90504bb5"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2916.24"/>
+			<string key="WorkstationIdleTime" value="1486"/>
+			<string key="WorkstationProductionTime" value="1428"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1110.12"/>
+			<date key="time:timestamp" value="2021-12-04T00:35:40.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:27:10.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="58"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Drilling2 Human 2916.24"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="09740e30-98ed-416e-88a4-a6687f5eb8c4"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3390.78"/>
+			<string key="WorkstationIdleTime" value="1196"/>
+			<string key="WorkstationProductionTime" value="1718"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="385.02"/>
+			<date key="time:timestamp" value="2021-12-04T00:48:34.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:45:10.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="59"/>
+			<string key="Order" value="TestOrder 19"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control3 Human 3390.78"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 2"/>
+		<string key="id:Id" value="5193666a-9411-455d-9957-3bb3099c539c"/>
+		<event>
+			<string key="id:Id" value="cfd8de54-9cad-4ea1-b6a5-baf0069555e5"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4142.88"/>
+			<string key="WorkstationIdleTime" value="1347"/>
+			<string key="WorkstationProductionTime" value="1567"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="73.92"/>
+			<date key="time:timestamp" value="2021-12-04T00:14:08.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:13:02.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="6"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Preparation6 Human 4142.88"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="faf6fcc9-d95a-4ffd-b2c3-f110e2b8f599"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2916.24"/>
+			<string key="WorkstationIdleTime" value="1486"/>
+			<string key="WorkstationProductionTime" value="1428"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1083.15"/>
+			<date key="time:timestamp" value="2021-12-04T00:22:29.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:14:08.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="7"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Drilling2 Human 2916.24"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="b952e74c-8c4e-49af-8a89-dbbe7529adf4"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2091"/>
+			<string key="WorkstationIdleTime" value="1999"/>
+			<string key="WorkstationProductionTime" value="915"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="810"/>
+			<date key="time:timestamp" value="2021-12-04T00:28:21.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:22:29.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="8"/>
+			<string key="Order" value="TestOrder 2"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control6 Human 2091"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 3"/>
+		<string key="id:Id" value="7d886de9-4dfb-4aff-90e0-fd826089d936"/>
+		<event>
+			<string key="id:Id" value="a07c4156-6404-4f62-9df7-70218f1bb6b6"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2527.62"/>
+			<string key="WorkstationIdleTime" value="1896"/>
+			<string key="WorkstationProductionTime" value="1018"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="572.68"/>
+			<date key="time:timestamp" value="2021-12-04T00:16:58.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:13:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="9"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Preparation1 Human 2527.62"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="db136318-57ef-4d19-bfbb-103f602bc39a"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="1468.04"/>
+			<string key="WorkstationIdleTime" value="2212"/>
+			<string key="WorkstationProductionTime" value="702"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1371.02"/>
+			<date key="time:timestamp" value="2021-12-04T00:27:01.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:16:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="10"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Drilling6 Human 1468.04"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="2cda1212-010b-47eb-bbef-ac2eaef325a5"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3390.78"/>
+			<string key="WorkstationIdleTime" value="1196"/>
+			<string key="WorkstationProductionTime" value="1718"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="601.71"/>
+			<date key="time:timestamp" value="2021-12-04T00:34:23.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:28:58.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="11"/>
+			<string key="Order" value="TestOrder 3"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control3 Human 3390.78"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 4"/>
+		<string key="id:Id" value="5a491864-0fcd-4773-9fb5-e8e919d36934"/>
+		<event>
+			<string key="id:Id" value="e941bfab-82ce-485c-b3f8-ad9202caaf92"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation5"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="1244.96"/>
+			<string key="WorkstationIdleTime" value="2352"/>
+			<string key="WorkstationProductionTime" value="562"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="197.16"/>
+			<date key="time:timestamp" value="2021-12-04T00:09:22.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:06:43.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="12"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Preparation5 Human 1244.96"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="6ec4323f-e56e-44d1-b26a-f58634cb2b78"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling5"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3175.2"/>
+			<string key="WorkstationIdleTime" value="1574"/>
+			<string key="WorkstationProductionTime" value="1340"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1027.04"/>
+			<date key="time:timestamp" value="2021-12-04T00:16:31.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:09:35.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="13"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Drilling5 Human 3175.2"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="b537fbe4-55da-40d1-bb43-b026c69e3ddb"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3222.76"/>
+			<string key="WorkstationIdleTime" value="1819"/>
+			<string key="WorkstationProductionTime" value="1095"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1259.84"/>
+			<date key="time:timestamp" value="2021-12-04T00:23:28.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:16:42.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="14"/>
+			<string key="Order" value="TestOrder 4"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control2 Human 3222.76"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 5"/>
+		<string key="id:Id" value="55ebba59-00c5-4d6e-b130-2e0838b80c9d"/>
+		<event>
+			<string key="id:Id" value="325d6573-9bfc-4d75-b437-6bca6bca1bba"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4142.88"/>
+			<string key="WorkstationIdleTime" value="1347"/>
+			<string key="WorkstationProductionTime" value="1567"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="546.56"/>
+			<date key="time:timestamp" value="2021-12-04T00:26:07.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:22:45.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="15"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Preparation6 Human 4142.88"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="d25f2248-a2a5-44a8-9dcf-a8bd105dc537"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2916.24"/>
+			<string key="WorkstationIdleTime" value="1486"/>
+			<string key="WorkstationProductionTime" value="1428"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="234.9"/>
+			<date key="time:timestamp" value="2021-12-04T00:37:56.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:35:40.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="16"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Drilling2 Human 2916.24"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="0602b960-6ee5-4bda-936f-a66847706d6e"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control2"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3222.76"/>
+			<string key="WorkstationIdleTime" value="1819"/>
+			<string key="WorkstationProductionTime" value="1095"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="166.16"/>
+			<date key="time:timestamp" value="2021-12-04T00:40:10.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:37:56.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="1"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="17"/>
+			<string key="Order" value="TestOrder 5"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control2 Human 3222.76"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 6"/>
+		<string key="id:Id" value="50238964-a4dd-41dd-bec4-a0201c98cac3"/>
+		<event>
+			<string key="id:Id" value="07ee7eca-609e-4cf8-825c-95dde0c16b3e"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3622.08"/>
+			<string key="WorkstationIdleTime" value="1448"/>
+			<string key="WorkstationProductionTime" value="1466"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="321.44"/>
+			<date key="time:timestamp" value="2021-12-04T00:14:35.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:11:57.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="18"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Preparation4 Human 3622.08"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="98a26f80-ddb1-4768-99dd-c825f2119227"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4627.98"/>
+			<string key="WorkstationIdleTime" value="1429"/>
+			<string key="WorkstationProductionTime" value="1485"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1340.64"/>
+			<date key="time:timestamp" value="2021-12-04T00:36:42.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:29:28.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="19"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Drilling1 Human 4627.98"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="4b9a0fca-1603-4852-8321-761a2c9d1663"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2178.54"/>
+			<string key="WorkstationIdleTime" value="1749"/>
+			<string key="WorkstationProductionTime" value="1165"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="618.54"/>
+			<date key="time:timestamp" value="2021-12-04T00:42:27.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:36:42.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="20"/>
+			<string key="Order" value="TestOrder 6"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control4 Human 2178.54"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 7"/>
+		<string key="id:Id" value="03504597-188e-4208-9c5a-94f1cee11ad2"/>
+		<event>
+			<string key="id:Id" value="3ef0aedf-1483-4e3a-89c3-a2163ab3eeab"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3622.08"/>
+			<string key="WorkstationIdleTime" value="1448"/>
+			<string key="WorkstationProductionTime" value="1466"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1815.94"/>
+			<date key="time:timestamp" value="2021-12-04T00:11:57.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:00:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="21"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Preparation4 Human 3622.08"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="48dad640-3eb7-40a2-8435-b7dc9ce80f5d"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling1"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4627.98"/>
+			<string key="WorkstationIdleTime" value="1429"/>
+			<string key="WorkstationProductionTime" value="1485"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="2067.66"/>
+			<date key="time:timestamp" value="2021-12-04T00:22:30.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:11:57.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="13"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="22"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Drilling1 Human 4627.98"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="8c69af7f-3109-48b7-b9f3-9198c752721c"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control5"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2924"/>
+			<string key="WorkstationIdleTime" value="1640"/>
+			<string key="WorkstationProductionTime" value="1274"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1063"/>
+			<date key="time:timestamp" value="2021-12-04T00:35:33.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:27:54.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="23"/>
+			<string key="Order" value="TestOrder 7"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control5 Human 2924"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 8"/>
+		<string key="id:Id" value="fb236f16-4cbb-4080-b23b-f917faa09f0e"/>
+		<event>
+			<string key="id:Id" value="bbc9d90e-7505-4527-a909-655edd36dd33"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation6"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="4142.88"/>
+			<string key="WorkstationIdleTime" value="1347"/>
+			<string key="WorkstationProductionTime" value="1567"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="1065.12"/>
+			<date key="time:timestamp" value="2021-12-04T00:06:49.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:00:00.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="7"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="24"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Preparation6 Human 4142.88"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="975e7fae-57bb-4934-aa0e-5dd5e5774175"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2419.34"/>
+			<string key="WorkstationIdleTime" value="1536"/>
+			<string key="WorkstationProductionTime" value="1378"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="399.63"/>
+			<date key="time:timestamp" value="2021-12-04T00:13:11.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:08:46.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="25"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Drilling4 Human 2419.34"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="89751a4b-ffe2-411c-b879-d0055124e201"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="3390.78"/>
+			<string key="WorkstationIdleTime" value="1196"/>
+			<string key="WorkstationProductionTime" value="1718"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="470.58"/>
+			<date key="time:timestamp" value="2021-12-04T00:17:29.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:13:11.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="26"/>
+			<string key="Order" value="TestOrder 8"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control3 Human 3390.78"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="Order" value="TestOrder 9"/>
+		<string key="id:Id" value="c42946fb-90cc-4224-8094-a045073e6539"/>
+		<event>
+			<string key="id:Id" value="70a0757c-8151-4338-a224-cfe98608e5d6"/>
+			<string key="org:group" value="Preparation"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="15606.36"/>
+			<string key="org:resource" value="Preparation3"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="1310.4"/>
+			<string key="WorkstationIdleTime" value="2361"/>
+			<string key="WorkstationProductionTime" value="553"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="600.96"/>
+			<date key="time:timestamp" value="2021-12-04T00:09:13.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:05:01.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="27"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Preparation3 Human 1310.4"/>
+			<string key="WorkGroupSpecific" value="Preparation 0 cobots 15606.36"/>
+		</event>
+		<event>
+			<string key="id:Id" value="5c50f1d0-f9d6-41c7-9209-b6680dff0fde"/>
+			<string key="org:group" value="Drilling"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="17283.55"/>
+			<string key="org:resource" value="Drilling4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2419.34"/>
+			<string key="WorkstationIdleTime" value="1536"/>
+			<string key="WorkstationProductionTime" value="1378"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="841.61"/>
+			<date key="time:timestamp" value="2021-12-04T00:20:34.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:13:11.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="10"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="28"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Drilling4 Human 2419.34"/>
+			<string key="WorkGroupSpecific" value="Drilling 0 cobots 17283.55"/>
+		</event>
+		<event>
+			<string key="id:Id" value="cf064d38-6738-41d0-bc88-2294f4996e06"/>
+			<string key="org:group" value="Electronical quality control"/>
+			<string key="WorkstationGroupCobots" value="0 cobots"/>
+			<string key="WorkstationGroupCosts" value="14685.16"/>
+			<string key="org:resource" value="Electronical quality control4"/>
+			<string key="org:role" value="Human"/>
+			<string key="WorkstationCost" value="2178.54"/>
+			<string key="WorkstationIdleTime" value="1749"/>
+			<string key="WorkstationProductionTime" value="1165"/>
+			<string key="WorkstationQueue" value="0"/>
+			<string key="WorkstationBlockingTime" value="0"/>
+			<string key="cost:total" value="314.34"/>
+			<date key="time:timestamp" value="2021-12-04T00:23:55.000+01:00"/>
+			<date key="start_timestamp" value="2021-12-04T00:20:34.000+01:00"/>
+			<string key="Duration" value="0"/>
+			<string key="Quantity" value="4"/>
+			<string key="ProductionType" value="4"/>
+			<string key="concept:name" value="29"/>
+			<string key="Order" value="TestOrder 9"/>
+			<string key="WorkstationsSpecific" value="Electronical quality control4 Human 2178.54"/>
+			<string key="WorkGroupSpecific" value="Electronical quality control 0 cobots 14685.16"/>
+		</event>
+	</trace>
+</log>

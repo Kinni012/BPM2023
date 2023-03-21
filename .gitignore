@@ -1,1 +1,4 @@
 stable/
+bin/
+packages/
+obj/

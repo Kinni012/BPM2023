@@ -2,3 +2,5 @@ stable/
 bin/
 packages/
 obj/
+debug/
+release/

@@ -10,3 +10,11 @@ In the following picture an overview of the memetic algorithm with local process
   <li>This local process models represent problem specific knowledge</li>
   <li>From now on, whenever a good solution is found a variable neighborhood search that utilizes the local process models is applied</li>
 </ol>
+## Run code
+To run the code the following steps have to be done:
+<ol>
+  <li> Extract .zip file in Code/HeuristicLab/stable.zip so that the file structure is Code/HeuristicLab/stable/... The three points stand for all HeuristicLab files 
+  <li> Open visual studio solution => Code/BPM2023/BPM2023.sln 
+  <li> Restore nuget packages for solution 
+  <li> Run FjspOptimization (cobot assignment and flexible job shop scheduling problem) or PaperOptimization (cobot assignment and job shop scheduling problem)
+<ol>

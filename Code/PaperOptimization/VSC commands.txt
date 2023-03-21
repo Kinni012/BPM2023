@@ -1,6 +1,0 @@
-//========= Show all spack modules that can be installed ===========
-spack list
-//========= Show information about one package ===========
-spack info mono
-//========= Install package in specific version ===========
-spack install mono@6.12.0.122

@@ -61,10 +61,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\HeuristicLab\extension\Easy4SimPlugin\HeuristcLab.Easy4SimMultiEncoding.Plugin\Easy4Sim\DataStore.dll</HintPath>
     </Reference>
-    <Reference Include="Easy4SimFrameworkExcelReader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=aa2a77a03473fb13, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\easy4simFrameworkExcelReader\bin\Debug\Easy4SimFrameworkExcelReader.dll</HintPath>
-    </Reference>
     <Reference Include="HeuristicLab.Algorithms.GeneticAlgorithm-3.3">
       <HintPath>..\HeuristicLab\stable\bin\HeuristicLab.Algorithms.GeneticAlgorithm-3.3.dll</HintPath>
     </Reference>
@@ -135,11 +131,8 @@
     <Reference Include="HeuristicLab.SequentialEngine-3.3">
       <HintPath>..\HeuristicLab\stable\bin\HeuristicLab.SequentialEngine-3.3.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\easy4simModels\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
     <Reference Include="MathNet.Numerics, Version=4.15.0.0, Culture=neutral, PublicKeyToken=cd8b63ad3d691a37, processorArchitecture=MSIL">
-      <HintPath>..\packages\MathNet.Numerics.Signed.4.15.0\lib\net461\MathNet.Numerics.dll</HintPath>
+      <HintPath>..\BPM2023\packages\MathNet.Numerics.Signed.4.15.0\lib\net461\MathNet.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Private>False</Private>
@@ -148,7 +141,7 @@
     <Reference Include="System.Numerics" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+      <HintPath>..\BPM2023\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />

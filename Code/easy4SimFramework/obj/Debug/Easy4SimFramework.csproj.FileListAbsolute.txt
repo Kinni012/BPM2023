@@ -22,3 +22,16 @@ C:\develop\Cobot\combined-cobot-assignement-and-job-shop-scheduling-problem\Code
 C:\develop\Cobot\combined-cobot-assignement-and-job-shop-scheduling-problem\Code\easy4SimFramework\obj\Debug\easy4SimFramework.csproj.CopyComplete
 C:\develop\Cobot\combined-cobot-assignement-and-job-shop-scheduling-problem\Code\easy4SimFramework\obj\Debug\Easy4SimFramework.dll
 C:\develop\Cobot\combined-cobot-assignement-and-job-shop-scheduling-problem\Code\easy4SimFramework\obj\Debug\Easy4SimFramework.pdb
+C:\develop\BPM2023\Code\easy4SimFramework\obj\Debug\easy4SimFramework.csproj.CoreCompileInputs.cache
+C:\develop\BPM2023\Code\easy4SimFramework\bin\Debug\Easy4SimFramework.dll.config
+C:\develop\BPM2023\Code\easy4SimFramework\bin\Debug\Easy4SimFramework.dll
+C:\develop\BPM2023\Code\easy4SimFramework\bin\Debug\Easy4SimFramework.pdb
+C:\develop\BPM2023\Code\easy4SimFramework\bin\Debug\Google.Protobuf.dll
+C:\develop\BPM2023\Code\easy4SimFramework\bin\Debug\HEAL.Attic.dll
+C:\develop\BPM2023\Code\easy4SimFramework\bin\Debug\log4net.dll
+C:\develop\BPM2023\Code\easy4SimFramework\bin\Debug\System.Drawing.Common.dll
+C:\develop\BPM2023\Code\easy4SimFramework\bin\Debug\Google.Protobuf.xml
+C:\develop\BPM2023\Code\easy4SimFramework\bin\Debug\log4net.xml
+C:\develop\BPM2023\Code\easy4SimFramework\obj\Debug\easy4SimFramework.csproj.CopyComplete
+C:\develop\BPM2023\Code\easy4SimFramework\obj\Debug\Easy4SimFramework.dll
+C:\develop\BPM2023\Code\easy4SimFramework\obj\Debug\Easy4SimFramework.pdb

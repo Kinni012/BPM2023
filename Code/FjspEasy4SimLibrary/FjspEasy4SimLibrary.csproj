@@ -44,10 +44,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
-      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+      <HintPath>..\BPM2023\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="HEAL.Attic, Version=1.5.0.0, Culture=neutral, PublicKeyToken=ba48961d6f65dcec, processorArchitecture=MSIL">
-      <HintPath>..\packages\HEAL.Attic.1.5.0\lib\net461\HEAL.Attic.dll</HintPath>
+      <HintPath>..\BPM2023\packages\HEAL.Attic.1.5.0\lib\net461\HEAL.Attic.dll</HintPath>
     </Reference>
     <Reference Include="HeuristicLab.Common-3.3">
       <HintPath>..\HeuristicLab\stable\bin\HeuristicLab.Common-3.3.dll</HintPath>
@@ -59,7 +59,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Drawing.Common.4.5.1\lib\net461\System.Drawing.Common.dll</HintPath>
+      <HintPath>..\BPM2023\packages\System.Drawing.Common.4.5.1\lib\net461\System.Drawing.Common.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -72,6 +72,7 @@
     <Compile Include="EvaluationData.cs" />
     <Compile Include="EvaluationJob.cs" />
     <Compile Include="EvaluationOperation.cs" />
+    <None Include="packages.config" />
     <None Include="README.md" />
     <Compile Include="FjspEvaluation.cs" />
     <Compile Include="FjspLoader.cs" />
@@ -87,7 +88,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="keyFile.snk" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\easy4SimFramework\easy4SimFramework.csproj">

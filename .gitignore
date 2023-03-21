@@ -2,3 +2,4 @@ stable/
 bin
 packages
 obj
+*.cache

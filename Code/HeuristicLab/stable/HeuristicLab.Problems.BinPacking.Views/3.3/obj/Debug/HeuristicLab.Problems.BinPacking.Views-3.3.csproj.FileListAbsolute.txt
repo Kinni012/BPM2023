@@ -1,0 +1,15 @@
+C:\develop\easy4sim\HeuristicLab\stable\bin\HeuristicLab.Problems.BinPacking.Views-3.3.dll
+C:\develop\easy4sim\HeuristicLab\stable\bin\HeuristicLab.Problems.BinPacking.Views-3.3.pdb
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\HeuristicLab.Problems.BinPacking.Views-3.3.csprojAssemblyReference.cache
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\Container3DView.baml
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\Container2DView.baml
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\Container3DView.g.cs
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\Container2DView.g.cs
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\HeuristicLab.Problems.BinPacking.Views-3.3_MarkupCompile.cache
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\HeuristicLab.Problems.BinPacking.Views-3.3.g.resources
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\HeuristicLab.Problems.BinPacking.Views.PackingPlan2DView.resources
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\HeuristicLab.Problems.BinPacking.Views.PackingPlan3DView.resources
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\HeuristicLab.Problems.BinPacking.Views-3.3.csproj.GenerateResource.cache
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\HeuristicLab.Problems.BinPacking.Views-3.3.csproj.CoreCompileInputs.cache
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\HeuristicLab.Problems.BinPacking.Views-3.3.dll
+C:\develop\easy4sim\HeuristicLab\stable\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\HeuristicLab.Problems.BinPacking.Views-3.3.pdb
